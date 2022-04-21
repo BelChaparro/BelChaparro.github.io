@@ -1,0 +1,109 @@
+/* Colors */
+:root {
+    --primary-color: #fff1db;
+    --secondary-color: #fcbc5d;
+    --text-on-color: #814f02;
+    --text-on-white: #473315;
+    --special-text-on-color: #2b4899;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 100%;
+    background: var(--primary-color);
+    margin: auto 20px;
+    font-size: 1rem;
+    line-height: 1.8em;
+    display: block;
+}
+
+header, footer {
+    height: 4.5rem;
+    background-color: var(--secondary-color);
+    color: var(--text-on-color);
+    border: var(--text-on-white);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Playball", "Brush Script MT", cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0.45em;
+}
+
+hr {
+    color: var(--text-on-white);
+}
+
+main {
+    font-family: "Source Sans Pro", "Geneva", sans-serif;
+    margin: 0px 30px 15px 30px;
+    color: var(--text-on-white);
+}    
+
+nav a:hover {
+    font-size: 1.2em;
+}
+
+#self-image {
+    width: 200px;
+    float: right;
+    margin: 10px;
+    border: 2px solid var(--text-on-color);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(87, 86, 84);
+}
+
+footer {
+    font-family: "Noto Serif", Georgia, serif;
+    font-size: .9rem;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+#last-update-date {
+    color: var(--special-text-on-color);
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        padding-top: 0rem;
+    }
+
+    #self-image {
+        margin-top: 25px;
+        align-self: center;
+    }
+
+    footer {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #self-image {
+        width: 150px;
+    }
+
+    footer {
+        line-height: 1.5em;
+    }
+}
