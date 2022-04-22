@@ -7,10 +7,6 @@
     --special-text-on-color: #2b4899;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     max-width: 100%;
     background: var(--primary-color);
@@ -46,6 +42,7 @@ main {
     font-family: "Source Sans Pro", "Geneva", sans-serif;
     margin: 0px 30px 15px 30px;
     color: var(--regular-text);
+    min-height: 75vh;
 }    
 
 nav a:hover {
