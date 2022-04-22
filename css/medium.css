@@ -1,0 +1,5 @@
+@media (min-width: 32.5em) { /*520px for a base 16px font size is a 32.5em*/
+    #self-image {
+        float: right;
+    }
+}
