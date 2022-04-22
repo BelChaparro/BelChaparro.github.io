@@ -54,7 +54,6 @@ nav a:hover {
 
 #self-image {
     width: 200px;
-    float: right;
     margin: 10px;
     border: 2px solid var(--heading-on-color);
     border-radius: 20px;
