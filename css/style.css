@@ -17,7 +17,7 @@ body {
 }
 
 header, footer {
-    height: 4.5rem;
+    min-height: 4.5rem;
     background-color: var(--secondary-color);
     border: var(--regular-text);
     border-radius: 10px;
@@ -81,7 +81,6 @@ footer p {
     header {
         display: flex;
         flex-direction: column;
-        height: fit-content;
     }
 
     h1 {
