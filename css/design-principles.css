@@ -7,7 +7,7 @@ header {
     background-color: var(--primary-color);
     border: 2px solid var(--heading-on-color);
     height: 2.5rem;
-    width: 3.5rem;
+    width: 5rem;
     margin: 13px;
     align-self: center;
 }
