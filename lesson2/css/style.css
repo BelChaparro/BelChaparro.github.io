@@ -71,7 +71,7 @@ main {
     color: var(--regular-text);
 }
 
-#weather-site-info {
+.weather-site-info {
     background-color: white;
     border: 2px solid var(--heading-on-color);
     border-radius: 5px;
@@ -112,11 +112,13 @@ footer a {
 
 /* Medium View: */
 @media (min-width: 37.5em) {
-
+    h1 {
+		font-size: 2.5rem;
+	}
 	/* Grid */
     nav ul {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
@@ -127,8 +129,5 @@ footer a {
 	}
     nav a {
 		font-size: 1.2rem;
-	}
-    article:nth-child(3) {
-		grid-column: span 1;
 	}
 }
