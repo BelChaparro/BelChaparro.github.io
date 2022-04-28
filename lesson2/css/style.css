@@ -1,0 +1,133 @@
+/* Colors */
+:root {
+    --primary-color: #fff1db;
+    --secondary-color: #fcbc5d;
+    --heading-on-color: #814f02;
+    --regular-text: #473315;
+    --special-text-on-color: #2b4899;
+}
+
+body {
+    max-width: 100%;
+    background: var(--primary-color);
+    margin: auto 20px;
+    font-size: 1rem;
+    line-height: 2.5em;
+    display: block;
+}
+
+header, footer {
+    min-height: 4.5rem;
+    background-color: var(--secondary-color);
+    border: var(--regular-text);
+    border-radius: 10px;
+}
+
+header {
+    color: var(--heading-on-color);
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+    margin: 0 15px 0 15px;
+}
+
+nav a {
+    font-family: "Source Sans Pro", "Geneva", sans-serif;
+    display: block;
+	text-align: center;
+    align-self: center;
+    background-color: var(--primary-color);
+    border: 2px solid var(--heading-on-color);
+    margin: 13px;
+    height: 2.5rem;
+	font-size: 1rem;
+    color: var(--heading-on-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--heading-on-color);
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: "Playball", "Brush Script MT", cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0.35em;
+}
+
+hr {
+    color: var(--regular-text);
+}
+
+main {
+    font-family: "Source Sans Pro", "Geneva", sans-serif;
+    margin: 0px 30px 15px 30px;
+    color: var(--regular-text);
+}
+
+#weather-site-info {
+    background-color: white;
+    border: 2px solid var(--heading-on-color);
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    line-height: 1em;
+}
+
+#logo {
+    max-width: 90%;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-family: "Noto Serif", Georgia, serif;
+    font-size: .9rem;
+    line-height: 1.5em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: var(--regular-text)
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+footer a {
+    color: var(--regular-text);
+}
+
+#last-update-date {
+    color: var(--special-text-on-color);
+}
+
+/* Responsive */
+
+/* Medium View: */
+@media (min-width: 37.5em) {
+
+	/* Grid */
+    nav ul {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+/* Large View: */
+@media (min-width: 60em) {
+    h1 {
+		font-size: 3rem;
+	}
+    nav a {
+		font-size: 1.2rem;
+	}
+    article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
