@@ -85,9 +85,35 @@ section div {
     text-align: center;
 }
 
-#logo {
-    max-width: 90%;
-    margin: 0 auto;
+#logo, #color-palette {
+    max-width: 80%;
+}
+
+#primary-color, #secondary-color,
+#terciary-color, #first-accent-color,
+#second-accent-color {
+    padding: 5px;
+}
+
+#primary-color {
+    background-color: #0E6D81;
+    color: #F7fff7;
+}
+#secondary-color {
+    background-color: #F7fff7;
+    color: #00072D;
+}
+#terciary-color {
+    background-color: #AECDC4;
+    color: #00072D;
+}
+#first-accent-color {
+    background-color: #00072D;
+    color: #F7fff7;
+}
+#second-accent-color {
+    background-color: #FBBC04;
+    color: #00072D;
 }
 
 footer {
