@@ -88,6 +88,10 @@ section div {
 #logo, #color-palette {
     max-width: 80%;
 }
+#color-palette {
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 1px var(--regular-text);
+}
 
 /* Color-Scheme for Clever-Weather site: */
 #primary-color {
