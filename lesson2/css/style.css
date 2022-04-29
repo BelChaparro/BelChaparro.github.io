@@ -118,7 +118,7 @@ section div {
 
 /* Typography table: */
 table {
-    width: 90%;
+    max-width: 500px;
     background-color: var(--secondary-color);
     text-align: center;
 }
@@ -130,6 +130,18 @@ table, th, td{
 th, td {
     background-color: var(--primary-color);
     height: 2rem;
+    padding: 10px;
+}
+
+/* Fonts for Clever-Weather site: */
+#header-font {
+    font-family: 'Raleway', sans-serif;
+}
+#nav-font {
+    font-size: 1.2rem;
+}
+#nav-font, #paragraph-font {
+    font-family: 'Inter', sans-serif;
 }
 
 footer {
