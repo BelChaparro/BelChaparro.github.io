@@ -89,12 +89,7 @@ section div {
     max-width: 80%;
 }
 
-#primary-color, #secondary-color,
-#terciary-color, #first-accent-color,
-#second-accent-color {
-    padding: 5px;
-}
-
+/* Color-Scheme for Clever-Weather site: */
 #primary-color {
     background-color: #0E6D81;
     color: #F7fff7;
@@ -115,7 +110,13 @@ section div {
     background-color: #FBBC04;
     color: #00072D;
 }
+#primary-color, #secondary-color,
+#terciary-color, #first-accent-color,
+#second-accent-color {
+    padding: 5px;
+}
 
+/* Typography table: */
 table {
     width: 90%;
     background-color: var(--secondary-color);
