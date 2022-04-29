@@ -135,15 +135,11 @@ section div {
 #font-table th, td {
     background-color: var(--primary-color);
     height: 2rem;
-    padding: 10px;
 }
 
 /* Fonts for Clever-Weather site: */
 #header-font {
     font-family: 'Raleway', sans-serif;
-}
-#nav-font {
-    font-size: 1.2rem;
 }
 #nav-font, #paragraph-font {
     font-family: 'Inter', sans-serif;
@@ -183,6 +179,12 @@ footer a {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 	}
+    #font-table th, td {
+        padding: 10px;
+    }
+    #nav-font {
+        font-size: 1.2rem;
+    }
 }
 
 /* Large View: */
