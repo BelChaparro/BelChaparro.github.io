@@ -116,6 +116,21 @@ section div {
     color: #00072D;
 }
 
+table {
+    width: 90%;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid var(--heading-on-color);
+}
+
+th, td {
+    background-color: var(--primary-color);
+    height: 2rem;
+}
+
 footer {
     font-family: "Noto Serif", Georgia, serif;
     font-size: .9rem;
