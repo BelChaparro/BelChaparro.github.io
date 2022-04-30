@@ -94,29 +94,29 @@ section div {
 }
 
 /* Color-Scheme for Clever-Weather site: */
-#primary-color {
+.primary-color {
     background-color: #0E6D81;
     color: #F7fff7;
 }
-#secondary-color {
+.secondary-color {
     background-color: #F7fff7;
     color: #00072D;
 }
-#terciary-color {
+.terciary-color {
     background-color: #AECDC4;
     color: #00072D;
 }
-#first-accent-color {
+.first-accent-color {
     background-color: #00072D;
     color: #F7fff7;
 }
-#second-accent-color {
+.second-accent-color {
     background-color: #FBBC04;
     color: #00072D;
 }
-#primary-color, #secondary-color,
-#terciary-color, #first-accent-color,
-#second-accent-color {
+.primary-color, .secondary-color,
+.terciary-color, .first-accent-color,
+.second-accent-color {
     padding: 5px;
 }
 
