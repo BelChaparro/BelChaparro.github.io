@@ -1,0 +1,148 @@
+/* Colors */
+:root {
+    --primary-color: #0E6D81;
+    --secondary-color: #F7FFF7;
+    --terciary-color: #AECDC4;
+    --first-accent: #0D072D;
+    --second-accent: #FBBC04;
+}
+
+body {
+    max-width: 100%;
+    background: var(--primary-color);
+    font-size: 1rem;
+    line-height: 2.5em;
+    margin: 0;
+}
+
+#primary-nav, main{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header, footer {
+    min-height: 6rem; 
+    background-color: var(--first-accent);
+    color: var(--secondary-color)
+}
+
+header {
+    display: flex;
+    line-height: 0.5rem;
+    align-items: center;
+}
+
+.headings {
+    margin-left: 2vw;
+}
+
+#logo {
+    float: left;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 5px;
+}
+
+
+/* Navigation: */
+nav {
+    background-color: var(--terciary-color);
+}
+
+#menu-btn {
+    margin: .4rem 2vh;
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: var(--first-accent);
+}
+
+#menu-btn :hover {
+    cursor: pointer;
+}
+
+#menu-btn span:nth-child(1) {
+    display: block;
+}
+#menu-btn span:nth-child(2) {
+    display: none;
+}
+
+#menu-btn.open span:nth-child(1) {
+    display: none;
+}
+#menu-btn.open span:nth-child(2) {
+    display: block;
+}
+
+#primary-nav {
+	list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+    margin: 0 15px 0 15px;
+    background-color: var(--terciary-color);
+}
+
+#primary-nav a {
+    font-family: "Source Sans Pro", "Geneva", sans-serif;
+    font-weight: bold;
+    display: block;
+    height: 2.5rem;
+	font-size: 1rem;
+    color: var(--heading-on-color);
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+}
+
+#primary-nav a:hover {
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+    padding-left: .4rem;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+
+/* Main: */
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    color: var(--secondary-color);
+}
+
+main section {
+    background-color: var(--secondary-color);
+    color: var(--first-accent);
+    border-radius: 4px;
+}
+
+
+/* Footer: */
+footer {
+    font-size: .9rem;
+    line-height: 1.5em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+footer a {
+    color: var(--primary-color);
+}
+footer a:hover {
+    color: var(--second-accent);
+}
+
