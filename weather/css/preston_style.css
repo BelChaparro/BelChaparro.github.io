@@ -1,0 +1,21 @@
+/* Main Preston page*/
+#banner-img{
+    width: 100%;
+}
+
+.titles {
+    margin-left: 10px;
+}
+
+#article-img {
+    float:right;
+}
+
+section p {
+    margin: 15px;
+}
+
+#five-day-forecast-box {
+    display: flex;
+    justify-content: space-between;
+}
