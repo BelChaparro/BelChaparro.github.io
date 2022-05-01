@@ -1,0 +1,17 @@
+/* Large View: */
+@media (min-width: 60em) {
+
+    #primary-nav a {
+		font-size: 1.2rem;
+	}
+
+    main {
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    #five-day-forecast-box {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
