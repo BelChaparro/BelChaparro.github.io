@@ -1,0 +1,32 @@
+/* Medium View: */
+@media (min-width: 37.5em) {
+
+    #menu-btn {
+        display: none;;
+    }
+
+    #primary-nav {
+		display: flex;
+	}
+
+    #primary-nav li {
+        display: block;
+        flex: 1 1 auto;
+        text-align: center;
+    }
+
+    #primary-nav a {
+        border-top: none;
+    }
+
+    #primary-nav a:hover {
+        border-left: none;
+        border-bottom: 3px solid var(--second-accent);
+        color: var(--primary-color);
+    }
+
+    #five-day-forecast-box {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
