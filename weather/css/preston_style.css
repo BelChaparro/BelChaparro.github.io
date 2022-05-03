@@ -15,7 +15,12 @@ section p {
     margin: 15px;
 }
 
-#five-day-forecast-box {
+.banner-box, .five-day-forecast-box{
+    background-color: var(--secondary-color);
+    color: var(--first-accent);
+    border-radius: 4px;
+}
+.five-day-forecast-box {
     display: flex;
     justify-content: space-between;
 }
