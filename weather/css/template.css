@@ -138,18 +138,32 @@ main section {
 footer {
     font-size: .9rem;
     line-height: 1.5em;
-    display: flex;
-    text-align: center;
-    align-items: center;
 }
 
 footer p {
     margin: 0 auto;
 }
 
+.footer-upper-section {
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#location-map {
+    border-radius: 5px;
+}
+
+.footer-bottom-section {
+
+}
+
 footer a {
     color: var(--primary-color);
 }
+
 footer a:hover {
     color: var(--second-accent);
 }
