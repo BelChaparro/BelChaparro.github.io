@@ -152,12 +152,29 @@ footer p {
     align-items: center;
 }
 
+#contact-info {
+    margin-left: 10px;
+}
+
+.social {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social img{
+    margin: 5px;
+    width: 40px;
+}
+
 #location-map {
     border-radius: 5px;
 }
 
 .footer-bottom-section {
-
+    text-align: center;
+    padding: 5px;
 }
 
 footer a {
