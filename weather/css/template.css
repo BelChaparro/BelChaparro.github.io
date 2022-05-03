@@ -7,14 +7,8 @@
     --second-accent: #FBBC04;
 }
 
-body {
-    max-width: 100%;
-    background: var(--primary-color);
-    font-size: 1rem;
-    line-height: 2.5em;
-    margin: 0;
-}
 
+/* Fonts: */
 #primary-nav, main{
     font-family: 'Inter', sans-serif;
 }
@@ -23,11 +17,23 @@ h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
 }
 
+/* General: */
+body {
+    max-width: 100%;
+    background: var(--primary-color);
+    font-size: 1rem;
+    line-height: 2.5em;
+    margin: 0;
+}
+
 header, footer {
     min-height: 6rem; 
     background-color: var(--first-accent);
     color: var(--secondary-color)
 }
+
+
+/* Header: */
 header {
     display:flex;
     flex-direction: column;
@@ -96,7 +102,6 @@ nav {
 }
 
 #primary-nav a {
-    font-family: "Source Sans Pro", "Geneva", sans-serif;
     font-weight: bold;
     display: block;
     height: 2.5rem;
@@ -120,19 +125,13 @@ nav ul.open {
     display: block;
 }
 
+
 /* Main: */
 main {
     margin: 0 auto;
     max-width: 90%;
     color: var(--secondary-color);
 }
-
-main section {
-    background-color: var(--secondary-color);
-    color: var(--first-accent);
-    border-radius: 4px;
-}
-
 
 /* Footer: */
 footer {
