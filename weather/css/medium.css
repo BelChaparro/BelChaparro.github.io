@@ -42,10 +42,18 @@
         margin-right: 30px;
     }
 
+    /* Footer: */
     .footer-upper-section {
         flex-direction: row;
         padding: 15px;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .social {
+        padding: 15px 0px 0px 0px;
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
     }
 } 
