@@ -8,7 +8,7 @@
 }
 
 #article-img {
-    float:right;
+    float: right;
 }
 
 section p {
@@ -22,5 +22,5 @@ section p {
 }
 .five-day-forecast-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
