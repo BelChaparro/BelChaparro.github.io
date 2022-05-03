@@ -1,5 +1,17 @@
 /* Medium View: */
-@media (min-width: 37.5em) {
+@media (min-width: 32.5em) { /* 520px */
+
+    header {
+        flex-direction: row;
+    }
+
+    picture {
+        margin: 5px;
+    }
+
+    .headings {
+        margin-bottom: 0px;
+    }
 
     #menu-btn {
         display: none;;
