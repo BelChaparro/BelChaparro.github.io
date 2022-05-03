@@ -28,15 +28,23 @@ header, footer {
     background-color: var(--first-accent);
     color: var(--secondary-color)
 }
-
 header {
-    display: flex;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
     line-height: 0.5rem;
     align-items: center;
 }
 
+picture {
+    margin-top: 10px;
+    max-width: 172.38px;
+}
+
 .headings {
     margin-left: 2vw;
+    flex-direction: column;
+    margin-bottom: 5px;
 }
 
 #logo {
