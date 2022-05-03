@@ -174,17 +174,20 @@ footer p {
     width: 40px;
 }
 
-
-
 .footer-bottom-section {
+    background-color: var(--terciary-color);
     text-align: center;
     padding: 5px;
 }
 
-footer a {
-    color: var(--primary-color);
+footer a, .footer-bottom-section {
+    color: var(--first-accent);
 }
 
 footer a:hover {
+    color: var(--primary-color);
+}
+
+footer a:active {
     color: var(--second-accent);
 }
