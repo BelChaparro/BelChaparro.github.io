@@ -1,5 +1,5 @@
 /* Large View: */
-@media (min-width: 60em) {
+@media (min-width: 60em) { /*960px*/
 
     #primary-nav a {
 		font-size: 1.2rem;
