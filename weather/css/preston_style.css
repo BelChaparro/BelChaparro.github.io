@@ -1,4 +1,10 @@
 /* Main Preston page*/
+#primary-nav a#preston-nav-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+}
+
 #banner-img{
     width: 100%;
 }
