@@ -177,6 +177,7 @@ footer p {
 .footer-bottom-section {
     background-color: var(--terciary-color);
     text-align: center;
+    justify-content: center;
     padding: 5px;
 }
 
