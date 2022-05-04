@@ -31,7 +31,7 @@
         border-top: none;
     }
 
-    #primary-nav a:hover {
+    #primary-nav a:hover, #primary-nav a#preston-nav-btn {
         border-left: none;
         border-bottom: 3px solid var(--second-accent);
         color: var(--primary-color);
