@@ -106,7 +106,7 @@ nav {
     display: block;
     height: 2.5rem;
 	font-size: 1rem;
-    color: var(--heading-on-color);
+    color: var(--first-accent);
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0, 0.1);
 }
