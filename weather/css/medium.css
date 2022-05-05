@@ -1,7 +1,7 @@
 /* Medium View: */
 @media (min-width: 32.5em) { /* 520px */
-    /* Promo-banner: */
-    .promo-banner {
+    /* Banner-ad: */
+    .banner-ad {
         font-size: 1.5rem;
     }
 

@@ -1,7 +1,7 @@
 /* Main Preston page*/
 
-/* Promo Banner*/
-.promo-banner {
+/* Banner-ad*/
+.banner-ad {
     background-color: var(--second-accent);
     color:var(--first-accent);
     border: 1px solid var(--first-accent);
@@ -11,7 +11,7 @@
     font-size: 1.2rem;
     padding: 10px;
 }
-.promo-banner p {
+.banner-ad p {
     margin: 0;
 }
 
