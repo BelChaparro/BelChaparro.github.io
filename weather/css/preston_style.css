@@ -45,6 +45,9 @@
 #weather-summary hr {
     width: 85%;
 }
+#weather-summary p {
+    text-align: center;
+}
 
 .titles {
     margin:0;
