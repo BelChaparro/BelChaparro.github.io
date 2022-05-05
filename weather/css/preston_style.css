@@ -53,6 +53,7 @@
 
 #article-img {
     float: right;
+    padding: 5px;
 }
 
 article p {
