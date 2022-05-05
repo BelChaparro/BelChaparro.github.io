@@ -4,6 +4,7 @@
     /* Header: */
     header {
         flex-direction: row;
+        padding-left: 1rem;
     }
 
     picture {
@@ -42,6 +43,16 @@
      /* Main: */
     main {
         min-width: 90%;
+    }
+
+    #weather-summary {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border: 2px solid var(--first-accent);
+        border-radius: 5px;
+        box-shadow: 0 0 30px var(--first-accent);
+        opacity: 0.85;
     }
 
     #five-day-forecast-box {
