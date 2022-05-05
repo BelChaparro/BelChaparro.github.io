@@ -25,7 +25,7 @@ section p {
     margin: 15px;
 }
 
-.banner-box, .five-day-forecast-box, article{
+.five-day-forecast-box, article{
     background-color: var(--secondary-color);
     color: var(--first-accent);
     border-radius: 4px;
