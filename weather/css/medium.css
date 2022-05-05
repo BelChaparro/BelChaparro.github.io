@@ -59,11 +59,6 @@
         opacity: 0.85;
     }
 
-    #five-day-forecast-box {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
     /* Footer: */
     .footer-upper-section {
         flex-direction: row;
