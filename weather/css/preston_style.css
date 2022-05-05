@@ -64,13 +64,54 @@ section p {
     margin: 15px;
 }
 
-.five-day-forecast-box, article{
+ article{
     background-color: var(--secondary-color);
-    color: var(--first-accent);
+    color: var(--first-accent);    
+}
+
+/* 5-day Forecast: */
+.five-day-forecast-box, article, .banner-box {
     border-radius: 5px;
     margin-bottom: 1.5rem;
 }
+
 .five-day-forecast-box {
-    display: flex;
-    justify-content: space-evenly;
+	display: flex;
+	flex-flow: row wrap;
+    border-right: 1px solid var(--first-accent);
+}
+.five-day-forecast-box img {
+	padding: 0.5rem;
+}
+.forecast-col {
+	flex: 1 1 auto;
+	background-color: var(--secondary-color);
+    color: var(--first-accent);
+    border-bottom: 1px solid var(--first-accent);
+	border-left: 1px solid var(--first-accent);
+    text-align: center;
+    border-radius: 5px;
+}
+.forecast-col:hover {
+	opacity: 0.9;
+	background-color: var(--terciary-color);
+	color: var(--first-accent);
+}
+
+.col-head {
+	display: block;
+    border-radius: 5px;
+	padding: 5px;
+	border-bottom: 1px solid var(--first-accent);
+	text-align: center;
+    font-weight: 700;
+	font-size: 1.1rem;
+	background-color: var(--terciary-color);
+	color: var(--primary-color);
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	text-align: center;
 }
