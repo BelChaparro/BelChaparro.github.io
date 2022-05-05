@@ -98,7 +98,9 @@ section p {
 	background-color: var(--terciary-color);
 	color: var(--first-accent);
 }
-
+.forecast-col img {
+    width: 64px;
+}
 .col-head {
 	display: block;
     border-radius: 5px;
