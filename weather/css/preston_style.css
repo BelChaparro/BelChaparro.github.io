@@ -5,8 +5,25 @@
     color: var(--primary-color);
 }
 
+.banner-box {
+    position: relative;
+}
+
 #banner-img{
     width: 100%;
+}
+
+#weather-summary {
+    background: radial-gradient(var(--secondary-color), var(--terciary-color));
+    color:var(--first-accent);
+    padding: 10px;
+    line-height: 0.5rem;
+}
+#weather-summary h2 {
+    margin: 15px;
+}
+#weather-summary hr {
+    width: 85%;
 }
 
 .titles {
