@@ -1,6 +1,7 @@
 /* Medium View: */
 @media (min-width: 32.5em) { /* 520px */
-
+    
+    /* Header: */
     header {
         flex-direction: row;
     }
@@ -13,6 +14,7 @@
         margin-bottom: 0px;
     }
 
+    /* Navigation: */
     #menu-btn {
         display: none;;
     }
@@ -35,6 +37,11 @@
         border-left: none;
         border-bottom: 3px solid var(--second-accent);
         color: var(--primary-color);
+    }
+    
+     /* Main: */
+    main {
+        min-width: 90%;
     }
 
     #five-day-forecast-box {
