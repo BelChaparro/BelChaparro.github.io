@@ -1,10 +1,28 @@
 /* Main Preston page*/
+
+/* Promo Banner*/
+.promo-banner {
+    background-color: var(--second-accent);
+    color:var(--first-accent);
+    border: 1px solid var(--first-accent);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.promo-banner p {
+    margin: 0;
+}
+
+/* Navigation: */
 #primary-nav a#preston-nav-btn {
     background-color: rgba(0, 0, 0, 0.1);
     border-left: 3px solid var(--second-accent);
     color: var(--primary-color);
 }
 
+/* Main: */
 .banner-box {
     position: relative;
 }
