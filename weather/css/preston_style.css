@@ -2,6 +2,7 @@
 
 /* Banner-ad*/
 .banner-ad {
+    display: none;
     background-color: var(--second-accent);
     color:var(--first-accent);
     border: 1px solid var(--first-accent);
