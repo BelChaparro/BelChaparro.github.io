@@ -27,5 +27,5 @@ function bannerAd() {
 }
 
 if (weekday == "Friday") {
-    bannerAd;
+    bannerAd();
 }
