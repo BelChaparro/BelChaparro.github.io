@@ -14,7 +14,7 @@ let currentDate = new Date();
 
 let weekday = currentDate.toLocaleDateString("en", {weekday: "long"});
 let day = currentDate.getDate();
-let month = currentDate.toLocaleDateString("en", {month: "long",});
+let month = currentDate.toLocaleDateString("en", {month: "long"});
 let year = currentDate.getFullYear();
 
 currentDate = `${weekday}, ${day} ${month} ${year}`;
@@ -25,7 +25,7 @@ document.querySelector("#current-date").textContent = currentDate;
 function bannerAd() {
     document.querySelector(".banner-ad").style.display = "block";
 }
-console.log(weekday.toLowerCase());
-if (weekday.toLowerCase() == "friday") {
+
+if (weekday == "Friday") {
     bannerAd;
 }
