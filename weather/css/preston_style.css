@@ -112,7 +112,7 @@ section p {
     font-weight: 700;
 	font-size: 1.1rem;
 	background-color: var(--terciary-color);
-	color: var(--primary-color);
+	color: var(--first-accent);
 }
 
 .data {
