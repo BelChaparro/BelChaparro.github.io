@@ -29,5 +29,3 @@ function bannerAd() {
 if (weekday == "Friday") {
     bannerAd();
 }
-
-document.addEventListener('touchstart', onTouchStart, {passive: true});
