@@ -29,6 +29,7 @@
 
   
     <script src="js/scripts.js" defer></script>
+    <script src="js/windchill.js" defer></script>
 
 </head>
 <body>
@@ -70,10 +71,10 @@
                 <h2>Weather Summary</h2>
                 <hr>
                 <p>Currently: Sunny</p>
-                <p>High: 76 °F</p>
-                <p>Wind Chill: °F</p>
+                <p>Temperature: <span id="temperature">50</span> °F</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
                 <p>Humidity: 69%</p>
-                <p>Wind Speed: 5 mph</p>
+                <p>Wind Speed: <span id="wind-speed">5</span> mph</p>
             </section>
         </div>
 
@@ -82,27 +83,27 @@
         <div class="five-day-forecast-box">
                 <div class="forecast-col">
                     <span class="col-head">Monday</span>
-                    <img src="//ssl.gstatic.com/onebox/weather/48/snow_s_rain.png" alt="weather image">
+                    <img src="images/snow_s_rain.png" alt="weather image">
                     <span class="data">46 °F</span>
                 </div>
                 <div class="forecast-col">
                     <span class="col-head">Tuesday</span>
-                    <img src="//ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="weather image">
+                    <img src="images/partly_cloudy.png" alt="weather image">
                     <span class="data">55 °F</span>
                 </div>
                 <div class="forecast-col">
                     <span class="col-head">Wednesday</span>
-                    <img src="//ssl.gstatic.com/onebox/weather/64/sunny.png" alt="weather image">
+                    <img src="images/sunny.png" alt="weather image">
                     <span class="data">59 °F</span>
                 </div>
                 <div class="forecast-col">
                     <span class="col-head">Thursday</span>
-                    <img src="//ssl.gstatic.com/onebox/weather/64/sunny.png" alt="weather image">
+                    <img src="images/sunny.png" alt="weather image">
                     <span class="data">68 °F</span>
                 </div>
                 <div class="forecast-col">
                     <span class="col-head">Friday</span>
-                    <img src="//ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png" alt="weather image">
+                    <img src="images/rain_s_cloudy.png" alt="weather image">
                     <span class="data">67 °F</span>
                 </div>
         </div>
