@@ -1,21 +1,16 @@
 // Calculate windchill:
 //formula: f = 35.74 + 0.6215t - 35.75 (s^0.16) + 0.4275t(s^0.16)
 
-const temperature = document.querySelector("#temperature").value;
-const windSpeed = parseInt(document.querySelector("#wind-speed").value);
-let windChill;
-console.log(temperature, windSpeed);
+const temperature = parseInt(document.querySelector("#temperature").textContent);
+const windSpeed = parseInt(document.querySelector("#wind-speed").textContent);
 
 function computeWindChill (temp, speed) {
-    windChill = 35.74 + 0.6215 * temp - 35.75 (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16)
-    return windChill;
-}
+    return Math.round(35.74 + 0.6215 * temp - 35.75 * (speed ** 0.16) + 0.4275 * temp * (speed ** 0.16))
+};
 
-if (temperature <= 50 && speed > 3) {
-    windChill = computeWindChill(temperature, windChill);
+if (temperature <= 50 && windSpeed > 3) {
+    document.querySelector("#wind-chill").textContent = `${computeWindChill(temperature, windSpeed)} °F`;
 } 
 else {
-    windChill = "N/A";
+    document.querySelector("#wind-chill").textContent = "N/A";
 }
-
-document.querySelector("#wind-chill").textContent = windChill;
