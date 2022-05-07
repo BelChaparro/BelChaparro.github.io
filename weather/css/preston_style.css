@@ -28,12 +28,17 @@
     position: relative;
 }
 
+.banner-box picture {
+    margin: 0;
+}
+
 #banner-img{
     display:flex;
     width: 100%;
 }
 
 #weather-summary {
+    text-align: center;
     background: radial-gradient(var(--secondary-color), var(--terciary-color));
     color:var(--first-accent);
     padding: 10px;
