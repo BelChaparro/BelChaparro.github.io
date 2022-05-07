@@ -158,20 +158,16 @@ footer p {
     border-radius: 5px;
 }
 
-#contact-info {
-    margin-left: 10px;
-}
-
 .social {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
     text-align: center;
+    justify-content: center;
 }
 
-.social img{
-    margin: 5px;
-    width: 40px;
+.fa-instagram, .fa-facebook, .fa-whatsapp {
+    color: var(--secondary-color);
+    padding: 7px;
+    font-size: 1.5rem;
 }
 
 .footer-bottom-section {
