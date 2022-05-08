@@ -1,3 +1,6 @@
+/* Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@600&display=swap');
+
 /* Colors */
 :root {
     --primary-color: #0E6D81;
@@ -7,8 +10,6 @@
     --second-accent: #FBBC04;
 }
 
-
-/* Fonts: */
 nav, main{
     font-family: 'Inter', sans-serif;
 }
