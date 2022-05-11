@@ -1,0 +1,8 @@
+/* Large View: */
+@media (min-width: 60em) { /*960px*/
+
+    /* Main: */
+    .gallery-grid {
+    	grid-template-columns: repeat(3, 1fr);
+	}    
+} 
