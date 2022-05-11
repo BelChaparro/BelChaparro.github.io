@@ -39,7 +39,7 @@
 
 #weather-summary {
     text-align: center;
-    background: radial-gradient(var(--secondary-color), var(--terciary-color));
+    background: var(--secondary-color);
     color:var(--first-accent);
     padding: 10px;
     line-height: 0.5rem;
@@ -52,6 +52,7 @@
 }
 #weather-summary p {
     text-align: center;
+    font-weight: bold;
 }
 
 .titles {
@@ -67,6 +68,7 @@
 article p {
     margin:0;
     padding: 1rem;
+    font-size: 1.25rem;
 }
 
 section p {
