@@ -1,9 +1,5 @@
 /* Medium View: */
 @media (min-width: 32.5em) { /* 520px */
-    /* Banner-ad: */
-    .banner-ad {
-        font-size: 1.5rem;
-    }
 
     /* Header: */
     header {
@@ -38,7 +34,7 @@
         border-top: none;
     }
 
-    #primary-nav a:hover, #primary-nav a#preston-nav-btn {
+    #primary-nav a:hover {
         border-left: none;
         border-bottom: 3px solid var(--second-accent);
         color: var(--primary-color);
@@ -47,22 +43,6 @@
      /* Main: */
     main {
         max-width: 90%;
-    }
-
-    #weather-summary {
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        border: 2px solid var(--first-accent);
-        border-radius: 5px;
-        box-shadow: 0 0 30px var(--first-accent);
-        opacity: 0.85;
-    }
-
-    article p {
-        margin:0;
-        padding: 1rem;
-        font-size: 1.2rem;
     }
 
     /* Footer: */
