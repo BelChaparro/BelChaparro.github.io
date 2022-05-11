@@ -12,7 +12,7 @@
 
     .image-description {
         margin: 0 0 0 0.5rem;
-        display: block;
+        display:contents;
         color: var(--first-accent);
     }
     
