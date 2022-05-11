@@ -4,5 +4,16 @@
     /* Main: */
     .gallery-grid {
     	grid-template-columns: repeat(3, 1fr);
-	}    
+	}
+    figure {
+        background-color: var(--secondary-color);
+        box-shadow:1px 1px 15px 0px var(--first-accent);
+    }
+
+    .image-description {
+        margin: 0 0 0 0.5rem;
+        display: block;
+        color: var(--first-accent);
+    }
+    
 } 
