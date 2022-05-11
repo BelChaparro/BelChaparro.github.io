@@ -8,9 +8,6 @@
 }
 
 /* Main: */
-main {
-
-}
 
 .gallery-grid {
     display: grid;
@@ -20,13 +17,16 @@ main {
     align-content: center;
     align-items: center;
     grid-gap: 1.5rem;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.image-description {
+    display: none;
 }
 
 figure {
     margin: 0px;
-    background-color: var(--secondary-color);
     border-radius: 5px;
-    box-shadow:1px 1px 15px 0px var(--first-accent);
 }
 
 .gallery-grid figure img[data-src] {
