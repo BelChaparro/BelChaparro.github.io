@@ -1,3 +1,4 @@
+/* Medium View: */
 @media (min-width: 32.5em) { /* 520px */
    
     /* Navigation: */
@@ -7,6 +8,10 @@
         color: var(--primary-color);
     }
     
-     /* Main: */
-    
-} 
+    /* Main: */
+
+	/* Grid */
+    .gallery-grid {
+    	grid-template-columns: repeat(2, 1fr);
+	}
+}
