@@ -11,9 +11,10 @@
     }
 
     .image-description {
-        margin: 0 0 0 0.5rem;
-        display:contents;
+        margin: 0 0 0 0.2rem;
+        display: block;
         color: var(--first-accent);
+        font-style: italic;
     }
     
 } 
