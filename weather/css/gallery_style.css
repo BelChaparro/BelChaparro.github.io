@@ -1,12 +1,6 @@
 /* Gallery Page - Main section*/
 
 /* Navigation: */
-#primary-nav a#preston-nav-btn {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-left: 3px solid var(--second-accent);
-    color: var(--primary-color);
-}
-
 #primary-nav a#gallery-nav-btn {
     background-color: rgba(0, 0, 0, 0.1);
     border-left: 3px solid var(--second-accent);
