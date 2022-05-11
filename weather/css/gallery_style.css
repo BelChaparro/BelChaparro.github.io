@@ -6,3 +6,35 @@
     border-left: 3px solid var(--second-accent);
     color: var(--primary-color);
 }
+
+/* Main: */
+main {
+
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+
+figure {
+    margin: 0px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow:1px 1px 15px 0px var(--first-accent);
+}
+
+.gallery-grid figure img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.gallery-grid figure img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+    max-width: 100%;
+}
