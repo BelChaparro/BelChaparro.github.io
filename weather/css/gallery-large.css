@@ -13,6 +13,10 @@
     figure img {
         border-radius: 5px 5px 0 0;
     }
+    
+    figure:hover {
+        box-shadow: 0 0 30px var(--first-accent);
+    }
 
     .image-description {
         margin: -1rem 0 0 0.2rem;
