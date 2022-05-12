@@ -11,6 +11,10 @@
         box-shadow:1px 1px 15px 0px var(--first-accent);
     }
 
+    figure img {
+        border-radius: 5px 5px 0 0;
+    }
+
     .image-description {
         margin: -1rem 0 0 0.2rem;
         display: block;
