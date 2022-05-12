@@ -28,6 +28,10 @@ figure, figure img {
     border-radius: 5px;
 }
 
+figure:hover {
+    box-shadow: 0 0 30px var(--first-accent);
+}
+
 .gallery-grid figure img[data-src] {
     filter: blur(0.2em);
   }
