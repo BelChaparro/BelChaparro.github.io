@@ -4,6 +4,7 @@
     /* Main: */
     .gallery-grid {
     	grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 1.5rem;
 	}
     figure {
         background-color: var(--secondary-color);
@@ -11,7 +12,7 @@
     }
 
     .image-description {
-        margin: 0 0 0 0.2rem;
+        margin: -1rem 0 0 0.2rem;
         display: block;
         color: var(--first-accent);
         font-style: italic;
