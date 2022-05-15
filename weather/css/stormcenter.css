@@ -54,7 +54,11 @@ form label.sbs {
     color: var(--first-accent);
 }
 
-form label.sbs input#stormSev {
+form label#stormSevLabel {
+    padding-bottom: 0;
+}
+
+form input#stormSev {
     -webkit-appearance: none;
     border:1px solid var(--terciary-color);
     border-radius: 5px;
@@ -62,7 +66,7 @@ form label.sbs input#stormSev {
     background-color: rgba(0,0,0,0.05);
     width: 90%;
     max-width: 12.5rem;
-    margin-top: 1rem;
+    margin-top: -2rem;
 }
 
 form input.submitBtn {
