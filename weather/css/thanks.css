@@ -16,14 +16,20 @@ div.thank-you-msg-box {
 .thank-you-msg-box p {
     color: var(--first-accent);
     padding: 10px;
-    font-weight: 600;
+    font-weight: 570;
 }
 
-.fa-arrow-left{
+#back-btn{
     color: var(--first-accent);
     background-color: var(--terciary-color);
     padding: 10px;
     border-radius: 5px;
     font-size: 1.2rem;
     margin: 1rem;
+}
+
+main a {
+    text-decoration: none;
+    font-size:  1rem;
+    font-weight: 700;
 }
