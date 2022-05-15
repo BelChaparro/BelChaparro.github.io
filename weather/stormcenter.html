@@ -54,13 +54,13 @@
 
         <h1>Report a Storm / Unusual Weather Event</h1>
 
-        <form action="thanks.html" id="storm-center-form">
+        <form action="thanks.html" id="storm-center-form" oninput="stormSevValue.value = stormSev.valueAsNumber">
 
             <h3>Your Contact Information</h3>
             <label class="top">Full Name* <input type="text" name="full-name" required pattern="[A-Za-z ]{5,}"></label>
             <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
             <label class="top">Phone Number* <input type="tel" name="phone" required pattern="/\+(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"></label>
-            <label class="top">Zip Code* <input type="number" name="zip-code" required patter="/^\d{5}[-\s]?(?:\d{4})?$/gm"></label>
+            <label class="top">Zip Code* <input type="number" name="zip-code" required pattern="/^\d{5}[-\s]?(?:\d{4})?$/gm"></label>
             
             <h3>Storm / Event Details</h3>
             <label class="top">Storm Date <input type="date" name="storm-date"></label>
@@ -74,10 +74,10 @@
                     <option value="Tornado"></option>
                 </datalist>
             </label>
-            <label class="sbs">Storm Severity 
-                <input type="range" id="stormSev" name="stormSev" min="1" max="10" value="1" oninput="stormSevValue.value = this.valueAsNumber">
+            <label class="sbs" id="stormSevLabel" for="stormSev">Storm Severity </label>
+                <input type="range" id="stormSev" name="stormSev" min="1" max="10" value="1">
                 <output name="stormSevValue" for="storm-sev">1</output>
-            </label>
+            
             <label class="top">Storm Region 
                 <select name="storm-region">
                     <option value="" selected disabled>Select Region...&#9662;</option>
@@ -105,9 +105,9 @@
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div id="contact-info">
                 <h3>Contact Information</h3>
-                <p>📌​</i> Fake Street 2504, Preston, Idaho.<br>
-                    📞​</i> +1 (208) 123-4567<br>
-                    ​📧​</i> clever-weather@info.com
+                <p>📌​ Fake Street 2504, Preston, Idaho.<br>
+                    📞​ +1 (208) 123-4567<br>
+                    ​📧​ clever-weather@info.com
                 </p>
 
                 <div class="social">
