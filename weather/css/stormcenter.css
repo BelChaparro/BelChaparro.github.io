@@ -1,0 +1,85 @@
+/* Storm Center Small View */
+
+/* Navigation: */
+#primary-nav a#storm-c-nav-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+}
+
+/* Main: */
+main h1{
+    text-align: center;
+}
+
+/* Form: */
+form {
+    background-color: var(--secondary-color);
+    color: var(--first-accent);
+    border-radius: 5px;
+    margin: 0 auto 2rem auto;
+    border: 2px solid var(--first-accent);
+    border-radius: 10px;
+    padding: .5rem 3%;
+    max-width: 1200px;
+}
+
+form h3 {
+    margin: 1.5rem 0 -20px 0;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--first-accent);
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--terciary-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--first-accent);
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.05);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: var(--first-accent);
+}
+
+form label.sbs input#stormSev {
+    -webkit-appearance: none;
+    border:1px solid var(--terciary-color);
+    border-radius: 5px;
+    padding: .1rem;
+    background-color: rgba(0,0,0,0.05);
+    width: 90%;
+    max-width: 12.5rem;
+    margin-top: 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--terciary-color);
+    color: var(--first-accent);
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: 6px solid var(--second-accent);
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid var(--terciary-color);
+}
