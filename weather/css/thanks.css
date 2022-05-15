@@ -22,7 +22,7 @@ div.thank-you-msg-box {
 #back-btn{
     color: var(--first-accent);
     background-color: var(--terciary-color);
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     font-size: 1.2rem;
     margin: 1rem;
