@@ -1,0 +1,8 @@
+/*Home Page Small View*/
+
+/* Navigation: */
+#primary-nav a#home-nav-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+}
