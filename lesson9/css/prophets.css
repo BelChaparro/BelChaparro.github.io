@@ -1,0 +1,99 @@
+/* Small View: */
+/* Colors */
+:root {
+    --primary-color: #fff1db;
+    --secondary-color: #fcbc5d;
+    --heading-on-color: #814f02;
+    --regular-text: #473315;
+    --special-text-on-color: #2b4899;
+}
+
+body {
+    max-width: 100%;
+    background: var(--primary-color);
+    margin: auto 20px;
+    font-size: 1rem;
+    line-height: 2.5em;
+    display: block;
+}
+
+header, footer {
+    min-height: 4.5rem;
+    background-color: var(--secondary-color);
+    border: var(--regular-text);
+    border-radius: 10px;
+}
+
+header {
+    color: var(--heading-on-color);
+}
+
+h1 {
+    font-family: "Playball", "Brush Script MT", cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0.35em;
+}
+main {
+    font-family: "Source Sans Pro", "Geneva", sans-serif;
+    margin: 15px 30px 15px 30px;
+    color: var(--regular-text);
+}
+footer {
+    font-family: "Noto Serif", Georgia, serif;
+    font-size: .9rem;
+    line-height: 1.5em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: var(--regular-text)
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
+.cards {
+    margin: 0 auto;
+    display: grid;
+    padding: 1rem;
+    border: 2px solid rgb(153, 152, 193);
+    border-radius: 5px;
+    box-shadow: 1px 10px 30px 1px #888;
+}
+.cards section {
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    border: 2px solid rgb(153, 152, 193);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(153, 153, 195, 0.5);
+}
+.cards h2 {
+    color: var(--special-text-on-color);
+}
+.cards p {
+    line-height: 0.5rem;
+}
+.cards img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 1px #888;
+    max-width: 100%;
+    height: 300px;
+}
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Large View: */
+@media (min-width: 60em) { /* 960px */ 
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
