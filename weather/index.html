@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Clever-Weather site | Storm Center-Thank You page 
+    <meta name="description" content="Clever-Weather site | Home page 
     | A. Belén Chaparro | WDD 230: Web Frontend Development 
     | BYU-I Online | ARG">
-    <title>Thank You!</title>
+    <title>Home</title>
 
     <!-- Favicon: -->
     <link rel="icon" type="image/x-icon" href="/weather/images/white_favicon.ico">
-
+    
     <!-- CSS -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/template.css">
-    <link rel="stylesheet" href="css/thanks.css">    
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-
+    <link rel="stylesheet" href="css/index.css">    
+    <link rel="stylesheet" href="css/medium.css" media="(min-width:520px)">
+    <link rel="stylesheet" href="css/index_medium.css" media="(min-width:520px)">
+    <link rel="stylesheet" href="css/large.css" media="(min-width:960px)">
 
     <script src="js/scripts.js" defer></script>
 
@@ -40,11 +40,11 @@
     <nav>
         <button id="menu-btn"><span>&#9776; Menu</span><span>x</span></button>
         <ul id="primary-nav">
-            <li><a href="/weather/index.html">Home</a></li>
+            <li><a id="home-nav-btn"href="index.html">Home</a></li>
             <li><a id=preston-nav-btn href="/weather/preston.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a id="storm-c-nav-btn" href="stormcenter.html">Storm Center</a></li>
             <li><a id="gallery-nav-btn" href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
@@ -52,14 +52,7 @@
     <!-- MAIN -->
     <main>
 
-        <h1>Thank you for your report!</h1>
         
-        <div class="thank-you-msg-box">
-            <p>The information you shared with us will help many people.</p>
-        </div>
-        
-        <a href="stormcenter.html"><span id="back-btn">​⬅ Go back</span></a>
-
     </main>
 
     <!-- FOOTER -->
@@ -69,9 +62,9 @@
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div id="contact-info">
                 <h3>Contact Information</h3>
-                <p>📌 Fake Street 2504, Preston, Idaho.<br>
-                    📞 +1 (208) 123-4567<br>
-                    📧​ clever-weather@info.com
+                <p>📌​ Fake Street 2504, Preston, Idaho.<br>
+                    📞​ +1 (208) 123-4567<br>
+                    ​📧​ clever-weather@info.com
                 </p>
 
                 <div class="social">
