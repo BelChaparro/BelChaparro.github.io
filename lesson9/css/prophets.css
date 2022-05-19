@@ -36,7 +36,7 @@ h1 {
 }
 main {
     font-family: "Source Sans Pro", "Geneva", sans-serif;
-    margin: 15px 30px 15px 30px;
+    margin: 15px auto 15px auto;
     color: var(--regular-text);
 }
 footer {
@@ -95,5 +95,8 @@ body {
 @media (min-width: 60em) { /* 960px */ 
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    main {
+        max-width: 1500px;
     }
 }
