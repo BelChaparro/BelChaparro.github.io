@@ -6,4 +6,21 @@
         border-bottom: 3px solid var(--second-accent);
         color: var(--primary-color);
     }
+
+    /* Main: */
+    .preston-section, .soda-springs-section, .fish-haven-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+    main section h1, main section h3, main section p {
+        grid-column: 1;
+    }
+    main section img {
+        grid-column: 2;
+        grid-row: 1 / 4;
+    }
 }
