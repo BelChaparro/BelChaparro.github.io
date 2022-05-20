@@ -1,6 +1,6 @@
 // Banner Ad:
-let currentDate = new Date();
-let weekday = currentDate.toLocaleDateString("en", {weekday: "long"});
+let date = new Date();
+let weekday = date.toLocaleDateString("en", {weekday: "long"});
 
 function bannerAd() {
     document.querySelector(".banner-ad").style.display = "block";
