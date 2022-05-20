@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/medium.css" media="(min-width:520px)">
     <link rel="stylesheet" href="css/index_medium.css" media="(min-width:520px)">
     <link rel="stylesheet" href="css/large.css" media="(min-width:960px)">
+    <link rel="stylesheet" href="css/index_large.css" media="(min-width:960px)">
 
     <!-- Scripts: -->
     <script src="js/scripts.js" defer></script>
@@ -52,109 +53,60 @@
     </nav>
 
     <!-- MAIN -->
-    <main class="main-grid">
-        <section class="preston-section">
-            <h1>Preston</h1>
-            <h3 id="preston-motto"></h3>
-            <p>
-                Year Founded: <span id="preston-year"></span><br>
-                Population: <span id="preston-population"></span><br>
-                Annual Rain Fall: <span id="preston-annual-rain"></span>
-            </p>
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="preston-img" src="" alt="Preston Idaho">
-            </picture>
-        </section>
+    <main>
+        <div class="towns-grid">
+            <a href="/weather/preston.html">
+                <section class="preston-section">
+                    <h1>Preston</h1>
+                    <h3 id="preston-motto"></h3>
+                    <p>
+                        Year Founded: <span id="preston-year"></span><br>
+                        Population: <span id="preston-population"></span><br>
+                        Annual Rain Fall: <span id="preston-annual-rain"></span>
+                    </p>
+                    <img id="preston-img" src="images/preston.jpg" alt="Preston Idaho">
+                </section>
+            </a>
 
-        <section class="soda-springs-section">
-            <h1>Soda Springs</h1>
-            <h3 id="soda-motto"></h3>
-            <p>
-                Year Founded: <span id="soda-year"></span><br>
-                Population: <span id="soda-population"></span><br>
-                Annual Rain Fall: <span id="soda-annual-rain"></span>
-            </p>
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="soda-img" src="" alt="Soda Springs Idaho">
-            </picture>
-        </section>
+            <a href="#">
+                <section class="soda-springs-section">
+                    <h1>Soda Springs</h1>
+                    <h3 id="soda-motto"></h3>
+                    <p>
+                        Year Founded: <span id="soda-year"></span><br>
+                        Population: <span id="soda-population"></span><br>
+                        Annual Rain Fall: <span id="soda-annual-rain"></span>
+                    </p>
+                    <img id="soda-img" src="images/soda-springs.jpg" alt="Soda Springs Idaho">
+                </section>
+            </a>
 
-        <section class="fish-haven-section">
-            <h1>Fish Haven</h1>
-            <h3 id="fish-motto"></h3>
-            <p>
-                Year Founded: <span id="fish-year"></span><br>
-                Population: <span id="fish-population"></span><br>
-                Annual Rain Fall: <span id="fish-annual-rain"></span>
-            </p>
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="fish-img" src="" alt="Fish Haven Idaho">
-            </picture>
-        </section>
+            <a href="#">
+                <section class="fish-haven-section">
+                    <h1>Fish Haven</h1>
+                    <h3 id="fish-motto"></h3>
+                    <p>
+                        Year Founded: <span id="fish-year"></span><br>
+                        Population: <span id="fish-population"></span><br>
+                        Annual Rain Fall: <span id="fish-annual-rain"></span>
+                    </p>
+                    <img id="fish-img" src="images/fish-haven.jpg" alt="Fish Haven Idaho">
+                </section>
+            </a>
+        </div>
+        
         <hr id="town-separation">
-
-        <section class="top-stories">
-            <h2 class="stories-title">Top Stories</h2>
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="story-1" src="" alt="">
-            </picture>
-            <h2 class="story-title"></h2>
-
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="story-2" src="" alt="">
-            </picture>
-            <h2 class="story-title"></h2>
-
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="story-3" src="" alt="">
-            </picture>
-            <h2 class="story-title"></h2>
-
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="story-4" src="" alt="">
-            </picture>
-            <h2 class="story-title"></h2>
-        </section>
 
         <section class="country-weather">
             <h2 class="country-w-title">Weather Today Across the Country</h2>
-            <picture>
-                <source media="(max-width: 519px)" srcset="">
-                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
-                <img id="country-weather-img" src="" alt="country weather">
-            </picture>
+            <img class="country-weather-img" _ngcontent-app-root-c144="" alt="Static temperatures map" usemap="#clickableMap" src="https://s.w-x.co/staticmaps/wu/fee4c/temp_cur/usa/20220520/2000z.jpg">
         </section>
 
         <section class="recommended">
-            <video width="250px" controls="controls">
-                <source src="" type="video/mp4"> 
-            </video>
+            <h2 class="recommended-title">Recommended</h2>
+            <iframe width="250" src="https://www.youtube.com/embed/WANgNvrCOmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>What you need to know about tornadoes</p></iframe>
 
-            <video width="250px" controls="controls">
-                <source src="" type="video/mp4"> 
-            </video>
-
-            <video width="250px" controls="controls">
-                <source src="" type="video/mp4"> 
-            </video>
-
-            <video width="250px" controls="controls">
-                <source src="" type="video/mp4"> 
-            </video>
+            <iframe width="250" src="https://www.youtube.com/embed/XEpAgCnnYdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         
     </main>
