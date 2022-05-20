@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="css/index_medium.css" media="(min-width:520px)">
     <link rel="stylesheet" href="css/large.css" media="(min-width:960px)">
 
+    <!-- Scripts: -->
     <script src="js/scripts.js" defer></script>
+    <script src="js/town-data.js" defer></script>
 
 </head>
 <body>
@@ -50,8 +52,110 @@
     </nav>
 
     <!-- MAIN -->
-    <main>
+    <main class="main-grid">
+        <section class="preston-section">
+            <h1>Preston</h1>
+            <h3 id="preston-motto"></h3>
+            <p>
+                Year Founded: <span id="preston-year"></span><br>
+                Population: <span id="preston-population"></span><br>
+                Annual Rain Fall: <span id="preston-annual-rain"></span>
+            </p>
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="preston-img" src="" alt="Preston Idaho">
+            </picture>
+        </section>
 
+        <section class="soda-springs-section">
+            <h1>Soda Springs</h1>
+            <h3 id="soda-motto"></h3>
+            <p>
+                Year Founded: <span id="soda-year"></span><br>
+                Population: <span id="soda-population"></span><br>
+                Annual Rain Fall: <span id="soda-annual-rain"></span>
+            </p>
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="soda-img" src="" alt="Soda Springs Idaho">
+            </picture>
+        </section>
+
+        <section class="fish-haven-section">
+            <h1>Fish Haven</h1>
+            <h3 id="fish-motto"></h3>
+            <p>
+                Year Founded: <span id="fish-year"></span><br>
+                Population: <span id="fish-population"></span><br>
+                Annual Rain Fall: <span id="fish-annual-rain"></span>
+            </p>
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="fish-img" src="" alt="Fish Haven Idaho">
+            </picture>
+        </section>
+        <hr id="town-separation">
+
+        <section class="top-stories">
+            <h2 class="stories-title">Top Stories</h2>
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="story-1" src="" alt="">
+            </picture>
+            <h2 class="story-title"></h2>
+
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="story-2" src="" alt="">
+            </picture>
+            <h2 class="story-title"></h2>
+
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="story-3" src="" alt="">
+            </picture>
+            <h2 class="story-title"></h2>
+
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="story-4" src="" alt="">
+            </picture>
+            <h2 class="story-title"></h2>
+        </section>
+
+        <section class="country-weather">
+            <h2 class="country-w-title">Weather Today Across the Country</h2>
+            <picture>
+                <source media="(max-width: 519px)" srcset="">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="">
+                <img id="country-weather-img" src="" alt="country weather">
+            </picture>
+        </section>
+
+        <section class="recommended">
+            <video width="250px" controls="controls">
+                <source src="" type="video/mp4"> 
+            </video>
+
+            <video width="250px" controls="controls">
+                <source src="" type="video/mp4"> 
+            </video>
+
+            <video width="250px" controls="controls">
+                <source src="" type="video/mp4"> 
+            </video>
+
+            <video width="250px" controls="controls">
+                <source src="" type="video/mp4"> 
+            </video>
+        </section>
         
     </main>
 
@@ -79,6 +183,10 @@
         <div class="footer-bottom-section">
            <p>&copy; Clever-Weather Site | A. Belén Chaparro | <a href="https://www.byui.edu/online">BYU-I Online Learning</a><br>
             <span id="current-date"></span></p>
+            <p>Wireframes: <a href="https://wireframe.cc/Hpovqb" target="_blank">Large-View</a> | 
+                <a href="https://wireframe.cc/XwCfeg" target="_blank">Medium-View</a> | 
+                <a href="https://wireframe.cc/IkxU9P" target="_blank">Small-View</a>
+            </p>
         </div> 
     </footer>
 
