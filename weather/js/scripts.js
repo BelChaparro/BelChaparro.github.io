@@ -21,16 +21,6 @@ currentDate = `${weekday}, ${day} ${month} ${year}`;
 document.querySelector("#current-date").textContent = currentDate;
 
 
-// Banner Ad:
-function bannerAd() {
-    document.querySelector(".banner-ad").style.display = "block";
-}
-
-if (weekday == "Friday") {
-    bannerAd();
-}
-
-
 // LazyLoad Images:
 // Get all images with the "data-src" attribute:
 let imagesToLoad = document.querySelectorAll('img[data-src]');
