@@ -92,6 +92,9 @@ section p {
     border-right: 1px solid var(--first-accent);
 }
 .five-day-forecast-box img {
+    background-color: var(--terciary-color);
+    border-radius: 40px;
+    margin-top: 1.5rem;
 	padding: 0.5rem;
 }
 .forecast-col {
@@ -107,8 +110,11 @@ section p {
 	opacity: 0.9;
 	background-color: var(--terciary-color);
 	color: var(--first-accent);
+    
 }
-
+.forecast-col:hover img{
+    background-color: var(--secondary-color);
+}
 .col-head {
 	display: block;
     border-radius: 5px;
