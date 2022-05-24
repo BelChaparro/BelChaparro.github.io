@@ -60,7 +60,7 @@
     padding-left: 15px;
 }
 
-article .titles {
+article .titles, #upcoming-events .titles {
     padding-top: 1rem;
 }
 
@@ -69,23 +69,41 @@ article .titles {
     padding: 5px;
 }
 
-article p {
+article, #upcoming-events p {
     margin:0;
     padding: 1rem;
     font-size: 1.25rem;
 }
 
-section p {
-    margin: 15px;
-}
-
- article{
+article, #upcoming-events {
     background-color: var(--secondary-color);
     color: var(--first-accent);    
 }
+#upcoming-events {
+    border: 5px solid var(--second-accent);
+    max-width: 85%;
+    margin: 0 auto;
+    box-shadow:1px 1px 15px 0px var(--second-accent);
+}
+#upcoming-events hr {
+    width: 85%;
+    border-bottom: 1px solid var(--second-accent);
+    margin-bottom: -5px;
+}
+#upcoming-events ul {
+    list-style: none;
+}
+#upcoming-events ul li::before {
+    content: "\2022";
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.5em;
+    margin-left: -1em;
+}
 
 /* 5-day Forecast: */
-.five-day-forecast-box, article, .banner-box {
+.five-day-forecast-box, article, .banner-box, #upcoming-events {
     border-radius: 5px;
     margin-bottom: 1.5rem;
 }
@@ -94,7 +112,7 @@ section p {
 	display: flex;
 	flex-flow: row wrap;
     border-right: 1px solid var(--first-accent);
-    max-width: 90%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
