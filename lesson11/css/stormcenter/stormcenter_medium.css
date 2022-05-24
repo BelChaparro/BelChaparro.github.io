@@ -7,7 +7,10 @@
         border-bottom: 3px solid var(--second-accent);
         color: var(--primary-color);
     }
-
+    /* Main: */
+    main {
+        max-width: 1200px;
+    }
     /* Form: */
     form label.sbs {
         padding: .4rem 0;
