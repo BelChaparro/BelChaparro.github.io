@@ -1,0 +1,24 @@
+/* Large View: */
+@media (min-width: 60em) { /*960px*/
+
+    /* Navigation: */
+    #primary-nav a {
+		font-size: 1.2rem;
+	}
+
+    /* Main: */
+    main {
+        margin: 0 auto;
+    }
+
+    /* Footer: */
+    .footer-upper-section {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .social img{
+        width: 50px;
+    }
+    
+} 
