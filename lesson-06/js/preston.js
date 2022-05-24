@@ -17,6 +17,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
+    console.log(jsObject);
     //Display Weather Summary:
     document.querySelector("#current-condition").textContent = jsObject.weather[0].description;
     let tempInF = (jsObject.main.temp - 273.15) * 9/5 + 32;
@@ -24,6 +25,25 @@ fetch(apiURL)
     document.querySelector("#humidity").textContent = jsObject.main.humidity;
     document.querySelector("#wind-speed").textContent = jsObject.wind.speed;
 });
+
+
+//Get town upcoming events:
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+
+        for (let i = 0; i < towns.length; i++ ) {
+
+          if (towns[i].name == "Preston") {
+            towns[i].events.forEach(event => document.querySelector("#events").innerHTML += `<ul><li>${event}</li></ul>`);
+            ;
+          }
+      }
+    });
 
 
 //Town Forecast:
