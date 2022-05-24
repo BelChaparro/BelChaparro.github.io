@@ -1,0 +1,134 @@
+/* Main Preston page*/
+
+/* Banner-ad*/
+.banner-ad {
+    display: none;
+    background-color: var(--second-accent);
+    color:var(--first-accent);
+    border: 1px solid var(--first-accent);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.banner-ad p {
+    margin: 0;
+}
+
+/* Navigation: */
+#primary-nav a#preston-nav-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+}
+
+/* Main: */
+.banner-box {
+    position: relative;
+}
+
+.banner-box picture {
+    margin: 0;
+}
+
+#banner-img{
+    display:flex;
+    width: 100%;
+}
+
+#weather-summary {
+    text-align: center;
+    background: var(--secondary-color);
+    color:var(--first-accent);
+    padding: 10px;
+    line-height: 0.5rem;
+}
+#weather-summary h2 {
+    margin: 15px;
+}
+#weather-summary hr {
+    width: 85%;
+}
+#weather-summary p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.titles {
+    margin:0;
+    padding-left: 15px;
+}
+
+#article-img {
+    float: right;
+    padding: 5px;
+}
+
+article p {
+    margin:0;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+section p {
+    margin: 15px;
+}
+
+ article{
+    background-color: var(--secondary-color);
+    color: var(--first-accent);    
+}
+
+/* 5-day Forecast: */
+.five-day-forecast-box, article, .banner-box {
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.five-day-forecast-box {
+	display: flex;
+	flex-flow: row wrap;
+    border-right: 1px solid var(--first-accent);
+}
+.five-day-forecast-box img {
+    background-color: var(--terciary-color);
+    border-radius: 40px;
+    margin-top: 1.5rem;
+	padding: 0.5rem;
+}
+.forecast-col {
+	flex: 1 1 auto;
+	background-color: var(--secondary-color);
+    color: var(--first-accent);
+    border-bottom: 1px solid var(--first-accent);
+	border-left: 1px solid var(--first-accent);
+    text-align: center;
+    border-radius: 5px;
+}
+.forecast-col:hover {
+	opacity: 0.9;
+	background-color: var(--terciary-color);
+	color: var(--first-accent);
+    
+}
+.forecast-col:hover img{
+    background-color: var(--secondary-color);
+}
+.col-head {
+	display: block;
+    border-radius: 5px;
+	padding: 5px;
+	border-bottom: 1px solid var(--first-accent);
+	text-align: center;
+    font-weight: 700;
+	font-size: 1.1rem;
+	background-color: var(--terciary-color);
+	color: var(--first-accent);
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	text-align: center;
+}

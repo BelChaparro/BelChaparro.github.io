@@ -1,0 +1,46 @@
+/*Home Page Small View*/
+
+/* Navigation: */
+#primary-nav a#home-nav-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid var(--second-accent);
+    color: var(--primary-color);
+}
+
+/* Main: */
+body main {
+    margin: 20px auto;
+}
+main a {
+    text-decoration: none;
+}
+main hr {
+    width: 80%;
+    margin: 20px auto;
+}
+.preston-section, .soda-springs-section, .fish-haven-section, .top-stories, .country-weather, .recommended {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--first-accent);
+    box-shadow: 1px 1px 20px var(--first-accent);
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+.preston-section img, .soda-springs-section img, .fish-haven-section img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 15px var(--terciary-color);
+} 
+main h1, main h3 {
+    margin: 0;
+}
+.country-weather-img {
+    max-width: 90%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 15px var(--terciary-color);
+}
+.recommended video {
+    border-radius: 5px;
+}
+

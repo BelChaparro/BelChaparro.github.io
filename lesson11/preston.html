@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Clever-Weather site | Preston page | A. Belén Chaparro | WDD 230: Web Frontend Development 
+    | BYU-I Online | ARG">
+    <title>Preston Idaho - Clever-Weather</title>
+    <!-- Favicon: -->
+    <link rel="icon" type="image/x-icon" href="images/white_favicon.ico">
+    
+   <!-- CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/preston/preston_style.css">
+    <link rel="stylesheet" href="css/medium.css"  media="(min-width:520px)">
+    <link rel="stylesheet" href="css/preston/preston_medium.css"  media="(min-width:520px)">
+    <link rel="stylesheet" href="css/large.css"  media="(min-width:960px)">
+    <link rel="stylesheet" href="css/preston/preston_large.css"  media="(min-width:960px)">
+  
+    <script src="js/scripts.js" defer></script>
+    <script src="js/preston.js" defer></script>
+
+</head>
+<body>
+
+    <!-- BANNER -->
+    <div class="banner-ad">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <picture>
+            <img id="logo" src="images/logo_150px.png" alt="clever-weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Clever-Weather</h1>
+            <p><i>The brains of your operations</i></p>
+        </section>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <button id="menu-btn"><span>&#9776; Menu</span><span>x</span></button>
+        <ul id="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a id=preston-nav-btn href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <!-- MAIN -->
+    <main>
+        
+        <h2>Preston Idaho</h2>
+        <div class="banner-box">
+            <picture>
+                <source media="(max-width: 519px)" srcset="images/wdd230_image_franklin_519w.jpg">
+                <source media="(min-width: 520px) and (max-width: 959px)" srcset="images/wdd230_image_franklin_959w.jpg">
+            <img id="banner-img" src="images/wdd230_image_franklin_1200w.jpg" alt="hero image (Preston Idaho)">
+            </picture>
+            <section id="weather-summary">
+                <h2>Weather Summary</h2>
+                <hr>
+                <p>Currently: <span id="current-condition"></span></p>
+                <p>Temperature: <span id="temperature"></span> °F</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+            </section>
+        </div>
+
+        <h3 class="titles">Five Day Forecast</h3>
+        
+        <div class="five-day-forecast-box">
+                <div class="forecast-col">
+                    <span id="day1-name" class="col-head"></span>
+                    <img id="day1-img" src="" alt="weather image">
+                    <span id="day1-data" class="data"></span>
+                </div>
+                <div class="forecast-col">
+                    <span id="day2-name" class="col-head"></span>
+                    <img id="day2-img" src="" alt="weather image">
+                    <span id="day2-data" class="data"></span>
+                </div>
+                <div class="forecast-col">
+                    <span id="day3-name" class="col-head"></span>
+                    <img id="day3-img" src="" alt="weather image">
+                    <span id="day3-data" class="data"></span>
+                </div>
+                <div class="forecast-col">
+                    <span id="day4-name" class="col-head"></span>
+                    <img id="day4-img" src="" alt="weather image">
+                    <span id="day4-data" class="data"></span>
+                </div>
+                <div class="forecast-col">
+                    <span id="day5-name" class="col-head"></span>
+                    <img id="day5-img" src="" alt="weather image">
+                    <span id="day5-data" class="data"></span>
+                </div>
+        </div>
+        
+        <article>
+            <h3 class="titles">Article Title</h3>
+            
+            <p><img id="article-img" src="images/family-outdoors-playing.jpg" alt="">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quisquam et 
+                rem velit blanditiis laborum dolor, ut voluptatum quibusdam ullam corrupti 
+                animi neque, quia dolorem! Ipsam iure quibusdam perferendis, ex ullam magni 
+                ea hic aliquid, sequi dolorem voluptatum non nemo, et minima labore. Saepe 
+                sunt necessitatibus, rem optio blanditiis fugit impedit ad, similique, 
+                dolorem laboriosam culpa amet vero quos doloremque vitae ipsa! Natus dolorum 
+                adipisci sint nostrum atque? Excepturi exercitationem ullam, non accusantium 
+                eveniet enim consequatur laboriosam perspiciatis neque recusandae, deserunt 
+                praesentium qui! Amet incidunt ab, voluptates laudantium natus sapiente cupiditate 
+                inventore dolore? Minima esse accusamus repellat id est odio quo at totam 
+                nostrum atque libero voluptatem beatae sed, quisquam, aliquid ipsam, autem animi 
+                a! Inventore quam doloribus accusamus voluptate saepe laborum quae sequi rem 
+                praesentium at, eius modi illum porro officiis ipsam adipisci? Iure ad mollitia 
+                et voluptatibus est dicta commodi neque perspiciatis officia vel blanditiis 
+                itaque minima odit, unde iusto voluptates illo fugiat tenetur! Quos nam, iusto, 
+                veritatis repudiandae tenetur est hic consequuntur dicta quasi labore laudantium 
+                sit, voluptate ex voluptatibus animi totam et neque consectetur velit accusamus 
+                repellendus dolores nostrum libero! Quam perspiciatis facere deleniti ea, alias 
+                ipsa. Perspiciatis nesciunt cupiditate, ipsam mollitia omnis in minus sunt.
+            </p>
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-upper-section">
+            <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1651610849849!5m2!1ses-419!2sar" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="contact-info">
+                <h3>Contact Information</h3>
+                <p>📌 Fake Street 2504, Preston, Idaho.<br>
+                    📞 +1 (208) 123-4567<br>
+                    📧​ clever-weather@info.com
+                </p>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_white.png" alt="instagram logo"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook_white.png" alt="facebook logo"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="images/youtube_white.png" alt="youtube logo"></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer-bottom-section">
+           <p>&copy; Clever-Weather Site | A. Belén Chaparro | <a href="https://www.byui.edu/online">BYU-I Online Learning</a><br>
+            <span id="current-date"></span><br>
+            Weather Data Source: <a href="https://openweathermap.org/">OpenWeatherMap</a>
+        </p>
+        </div> 
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Clever-Weather site | Gallery page 
+    | A. Belén Chaparro | WDD 230: Web Frontend Development 
+    | BYU-I Online | ARG">
+    <title>Gallery</title>
+
+    <!-- Favicon: -->
+    <link rel="icon" type="image/x-icon" href="images/white_favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/gallery/gallery_style.css">    
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/gallery/gallery_medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/gallery/gallery-large.css">
+
+    <script src="js/scripts.js" defer></script>
+
+</head>
+<body>
+
+     <!-- HEADER -->
+    <header>
+        <picture>
+            <img id="logo" src="images/logo_150px.png" alt="clever-weather logo">
+        </picture>
+        <section class="headings">
+            <h1>Clever-Weather</h1>
+            <p><i>The brains of your operations</i></p>
+        </section>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <button id="menu-btn"><span>&#9776; Menu</span><span>x</span></button>
+        <ul id="primary-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a id=preston-nav-btn href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a id="gallery-nav-btn" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <h1>Weather Gallery</h1>
+
+        <div class="gallery-grid">
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/cumulonimbus_500px.webp" alt="group of cumulonimbus clouds">
+                <figcaption class="image-description">Group of cumulonimbus clouds</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/rainbow_500px.webp" alt="complete rainbow over field">
+                <figcaption class="image-description">Full rainbow over field</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/sunny-field_500px.webp" alt="sunny field">
+                <figcaption class="image-description">Sunny field</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/raining-city-street2_500px.webp" alt="heavy rain on city street">
+                <figcaption class="image-description">Heavy rain on city street</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/partially-cloudy_500px.webp" alt="partially cloudy sky">
+                <figcaption class="image-description">Partially cloudy sky</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/frozen-branch_500px.webp" alt="closeup of frozen branch">
+                <figcaption class="image-description">Frozen branch</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/tornado_500px.webp" alt="tornado near a village">
+                <figcaption class="image-description">Tornado near a village</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/bench-with-snow_500px.webp" alt="bench covered in snow">
+                <figcaption class="image-description">Bench covered in snow</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/snowing-city_500px.webp" alt="snow falling on city street">
+                <figcaption class="image-description">Snow falling on city street</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/sunny-bottom-clouds_500px.webp" alt="clear sky on top and clouds at the bottom">
+                <figcaption class="image-description">Clear sky on top and clouds at the bottom</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/sunshine-through-clouds_500px.webp" alt="sunshine showing through clouds">
+                <figcaption class="image-description">Sunshine showing through clouds</figcaption>
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/500x333" data-src="images/gallery/lightning_500px.webp" alt="lightning striking on hill">
+                <figcaption class="image-description">Lightning striking on hill</figcaption>
+            </figure>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-upper-section">
+            <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1651610849849!5m2!1ses-419!2sar" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="contact-info">
+                <h3>Contact Information</h3>
+                <p>📌 Fake Street 2504, Preston, Idaho.<br>
+                    📞 +1 (208) 123-4567<br>
+                    📧​ clever-weather@info.com
+                </p>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_white.png" alt="instagram logo"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook_white.png" alt="facebook logo"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="images/youtube_white.png" alt="youtube logo"></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer-bottom-section">
+           <p>&copy; Clever-Weather Site | A. Belén Chaparro | <a href="https://www.byui.edu/online">BYU-I Online Learning</a><br>
+            <span id="current-date"></span></p>
+        </div> 
+    </footer>
+
+</body>
+</html>
