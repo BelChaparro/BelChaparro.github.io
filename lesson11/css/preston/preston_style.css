@@ -60,6 +60,10 @@
     padding-left: 15px;
 }
 
+article .titles {
+    padding-top: 1rem;
+}
+
 #article-img {
     float: right;
     padding: 5px;
