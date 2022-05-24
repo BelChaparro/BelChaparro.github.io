@@ -1,8 +1,0 @@
-/* Large View: */
-@media (min-width: 60em) { /*960px*/
-
-    /* Main: */
-    main {
-        max-width: 1200px;
-    }
-}

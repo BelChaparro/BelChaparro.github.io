@@ -37,3 +37,50 @@ figure, figure img {
     transition: filter 0.5s;
     max-width: 100%;
 }
+
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+   
+    /* Navigation: */
+    #primary-nav a#gallery-nav-btn {
+        border-left: none;
+        border-bottom: 3px solid var(--second-accent);
+        color: var(--primary-color);
+    }
+    
+    /* Main: */
+
+	/* Grid */
+    .gallery-grid {
+    	grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Large View: */
+@media (min-width: 60em) { /*960px*/
+
+    /* Main: */
+    .gallery-grid {
+    	grid-template-columns: repeat(3, 1fr);
+	}
+    figure {
+        background-color: var(--secondary-color);
+        box-shadow:1px 1px 15px 0px var(--first-accent);
+    }
+
+    figure img {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    figure:hover {
+        box-shadow: 0 0 30px var(--first-accent);
+    }
+
+    .image-description {
+        margin: -1rem 0 0 0.2rem;
+        display: block;
+        color: var(--first-accent);
+        font-style: italic;
+    }
+    
+} 

@@ -126,3 +126,45 @@ section p {
 	padding: 0 5px 5px;
 	text-align: center;
 }
+
+
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+    /* Banner-ad: */
+    .banner-ad {
+        font-size: 1.5rem;
+    }
+    
+    /* Navigation: */
+    #primary-nav a#preston-nav-btn {
+        border-left: none;
+        border-bottom: 3px solid var(--second-accent);
+        color: var(--primary-color);
+    }
+    
+     /* Main: */
+    #weather-summary {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border: 2px solid var(--first-accent);
+        border-radius: 5px;
+        box-shadow: 0 0 30px var(--first-accent);
+        opacity: 0.85;
+    }
+
+    article p {
+        margin:0;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+} 
+
+/* Large View: */
+@media (min-width: 60em) { /*960px*/
+
+    /* Main: */
+    main {
+        max-width: 1200px;
+    }
+}
