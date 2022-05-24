@@ -19,7 +19,8 @@ fetch(apiURL)
   .then((jsObject) => {
     //Display Weather Summary:
     document.querySelector("#current-condition").textContent = jsObject.weather[0].description;
-    document.querySelector("#temperature").textContent = jsObject.main.temp;
+    let tempInF = (jsObject.main.temp - 273.15) * 9/5 + 32;
+    document.querySelector("#temperature").textContent = (Math.round(tempInF * 10) / 10);
     document.querySelector("#humidity").textContent = jsObject.main.humidity;
     document.querySelector("#wind-speed").textContent = jsObject.wind.speed;
 });
@@ -43,7 +44,8 @@ fetch(forecastApi)
       document.querySelector(`#day${i}-name`).textContent = day.toLocaleDateString("en", {weekday: "long"});
       const imagesrc = "http://openweathermap.org/img/wn/" + timeFilteredData[i-1].weather[0].icon + ".png";
       document.querySelector(`#day${i}-img`).setAttribute("src", imagesrc);
-      document.querySelector(`#day${i}-data`).textContent = timeFilteredData[i-1].main.temp + " °F";
+      let convertedTemp = (timeFilteredData[i-1].main.temp - 273.15) * 9/5 + 32;
+      document.querySelector(`#day${i}-data`).textContent = (Math.round(convertedTemp * 10) / 10)  + " °F";
     }
 });
 
