@@ -1,0 +1,14 @@
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+    /* Banner-ad: */
+    .banner-ad {
+        font-size: 1.5rem;
+    }
+    
+    /* Navigation: */
+    #primary-nav a#fish-haven-nav-btn {
+        border-left: none;
+        border-bottom: 3px solid var(--second-accent);
+        color: var(--primary-color);
+    }
+}
