@@ -52,7 +52,7 @@
     margin:0;
     padding-left: 15px;
 }
-.titles a {
+.titles a, article a {
     color: var(--primary-color);
 }
 
