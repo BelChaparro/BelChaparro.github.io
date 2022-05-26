@@ -62,7 +62,9 @@ article .titles, #upcoming-events .titles {
 
 #article-img {
     float: right;
-    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow:1px 1px 10px 0px var(--first-accent);
 }
 
 article, #upcoming-events p {
