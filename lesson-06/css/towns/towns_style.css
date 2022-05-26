@@ -52,6 +52,9 @@
     margin:0;
     padding-left: 15px;
 }
+.titles a {
+    color: var(--primary-color);
+}
 
 article .titles, #upcoming-events .titles {
     padding-top: 1rem;
