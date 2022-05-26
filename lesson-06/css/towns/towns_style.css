@@ -65,6 +65,7 @@ article .titles, #upcoming-events .titles {
     margin-left: 10px;
     border-radius: 5px;
     box-shadow:1px 1px 10px 0px var(--first-accent);
+    width: 350px;
 }
 
 article, #upcoming-events p {
