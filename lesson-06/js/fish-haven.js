@@ -1,16 +1,16 @@
 //Get town data from API:
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585000&appid=74931a27fd930b4c0759da539d3eb770";
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=42.0368759&lon=-111.3963177&exclude=hourly,daily,minutely&appid=74931a27fd930b4c0759da539d3eb770";
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
     //Display Weather Summary:
-    document.querySelector("#current-condition").textContent = jsObject.weather[0].description;
-    let tempInF = (jsObject.main.temp - 273.15) * 9/5 + 32;
+    document.querySelector("#current-condition").textContent = jsObject.current.weather[0].description;
+    let tempInF = (jsObject.current.temp - 273.15) * 9/5 + 32;
     document.querySelector("#temperature").textContent = (Math.round(tempInF * 10) / 10);
-    document.querySelector("#humidity").textContent = jsObject.main.humidity;
-    document.querySelector("#wind-speed").textContent = jsObject.wind.speed;
+    document.querySelector("#humidity").textContent = jsObject.current.humidity;
+    document.querySelector("#wind-speed").textContent = jsObject.current.wind_speed;
 });
 
 
@@ -34,7 +34,7 @@ fetch(requestURL)
 
 
 //Town Forecast:
-const forecastApi = "https://api.openweathermap.org/data/2.5/forecast?lat=42.312431&lon=-111.313538&appid=74931a27fd930b4c0759da539d3eb770";
+const forecastApi = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0368759&lon=-111.3963177&appid=74931a27fd930b4c0759da539d3eb770";
 fetch(forecastApi)
   .then((response) => response.json())
   .then((forecast) => {
