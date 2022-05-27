@@ -2,6 +2,9 @@
 @media (min-width: 60em) { /*960px*/
 
     /* Main: */
+    h2 {
+        margin-left: 1.7rem;
+    }
     .gallery-grid {
     	grid-template-columns: repeat(3, 1fr);
 	}
