@@ -17,7 +17,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     //Display Weather Summary:
     document.querySelector("#current-condition").textContent = jsObject.weather[0].description;
     let tempInF = (jsObject.main.temp - 273.15) * 9/5 + 32;

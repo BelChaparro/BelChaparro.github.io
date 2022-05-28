@@ -4,7 +4,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=42.0368759&l
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     //Display Weather Summary:
     document.querySelector("#current-condition").textContent = jsObject.current.weather[0].description;
     let tempInF = (jsObject.current.temp - 273.15) * 9/5 + 32;
