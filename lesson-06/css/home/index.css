@@ -32,7 +32,7 @@ main hr {
     border-radius: 5px;
     box-shadow: 1px 2px 15px var(--terciary-color);
 } 
-main h1, main h3 {
+main h2, main h3 {
     margin: 0;
 }
 main h2 {
