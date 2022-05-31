@@ -1,0 +1,122 @@
+[
+    {
+        "Honda Motor Scooters" : [
+            {
+                "model" : "Honda Metropolitan",
+                "cc" :  49,
+                "capacity" : "1 person",
+                "reservation" : [
+                    {
+                        "half-day" : 20,
+                        "full-day" : 30
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 25,
+                        "full-day" : 35
+                    }
+                ],
+                "image" : ""
+            },
+            {
+                "model" : "Honda Dio",
+                "cc" : 110,
+                "capacity" : "2 persons",
+                "reservation" : [
+                    {
+                        "half-day" : 30,
+                        "full-day" : 40
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 35,
+                        "full-day" : 45
+                    }
+                ],
+                "image" : ""
+            },
+            {
+                "model" : "Honda PCX150",
+                "cc" : 149,
+                "capacity" : "2 persons",
+                "reservation" : [
+                    {
+                        "half-day" : 40,
+                        "full-day" : 50
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 45,
+                        "full-day" : 55
+                    }
+                ],
+                "image" : ""
+            }
+        ]
+    },
+    {
+        "ATV Side-by-Side" : [
+            {
+                "model" : "Honda Pioneer 1000",
+                "capacity" : "4 persons",
+                "reservation" : [
+                    {
+                        "half-day" : 50,
+                        "full-day" : 70
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 60,
+                        "full-day" : 80
+                    }
+                ],
+                "image" : ""
+            }
+            
+        ]
+    },
+    {
+        "Jeep Rentals" : [
+            {
+                "model" : "4-door Jeep Wrangler",
+                "specs" : "manual with A/C",
+                "capacity" : "5 persons",
+                "reservation" : [
+                    {
+                        "half-day" : 70,
+                        "full-day" : 100
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 85,
+                        "full-day" : 125
+                    }
+                ],
+                "image" : ""
+            },
+            {
+                "model" : "2-door Jeep Wrangler",
+                "specs" : "open air, manual",
+                "capacity" : "4 persons",
+                "reservation" : [
+                    {
+                        "half-day" : 60,
+                        "full-day" : 85
+                    }
+                ],
+                "walk-in" : [
+                    {
+                        "half-day" : 70,
+                        "full-day" : 90
+                    }
+                ],
+                "image" : ""
+            }
+        ]
+    }
+]
