@@ -13,18 +13,22 @@
     <link rel="icon" type="image/x-icon" href="images/logo_small_icon_only.ico">
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/template_medium.css">
+    <link rel="stylesheet" href="css/template_large.css">
     <!-- Scripts: -->
-    <script src="" defer></script>
+    <script src="js/scripts.js" defer></script>
+    <script src="js/weather-data.js" defer></script>
 </head>
 <body>
         <!-- HEADER -->
         <header>
-            <p id="header-adress">5a Av. Nte. & Calle 2 Nte, Centro, 77600 San Miguel de Cozumel, Q.R., México</p>
-            <a href="index.html">
-                <img id="logo" src="" alt="scoots logo">
-                <h1>~Scoots</h1>
-            </a>
-            <p id="header-phone">+52 999 123 4567</p>
+            <p id="header-address"> 📌 5a Av. Nte. & Calle 2 Nte, Centro, 77600 San Miguel de Cozumel, Q.R., México</p>
+                <a href="index.html">
+                    <img id="logo" src="images/logo_small.png" alt="scoots logo">
+                    <h1 class="company-name">Scoots</h1>
+                </a>
+            <p id="header-phone"><img src="images/phone_24px.png" alt="phone icon"> +52 999 123 4567</p>
         </header>
     
         <!-- NAVIGATION -->
@@ -40,17 +44,17 @@
         </nav>
     
         <!-- MAIN -->
-        <main id="main-grid">
+        <main>
             <!-- BANNER  -->
             <div class="banner">
-                <h1>Cozumel</h1>
-                <img src="" alt="Cozumel island">
+                <img src="images/sunrise_cozumel.webp" alt="Cozumel island">
                 <div id="action">
                     <button>Make your Reservation!</button>
                 </div>
             </div>
             
-            <section class="rentals">
+            <div id="main-grid">
+                <section class="rentals">
                 <h2>Type of Rentals</h2>
                 <ul>
                     <h3>Honda Motor Scooters</h3>
@@ -67,12 +71,12 @@
                 </ul>
             </section>
 
-            <section class="weather summary">
+            <section class="weather-summary">
                 <h2>Weather Summary</h2>
                 <hr>
                 <p>Temperature: <span id="temperature"></span> °F</p>
                 <p>Currently: <span id="current-condition"></span></p>                
-                <p>Humidity: <span id="humidity"></span></p>
+                <p>Humidity: <span id="humidity"></span> %</p>
             </section>
 
             <div class="five-day-forecast-box">
@@ -102,43 +106,45 @@
                     <img id="day5-img" src="" alt="weather image">
                     <span id="day5-data" class="data"></span>
                 </div>
+            </div>
         </div>
             
         </main>
     
         <!-- FOOTER -->
-        <footer>
+        <footer id="footer-grid">
             <div id="footer-logo">
                 <a href="index.html">
-                    <img id="logo" src="" alt="scoots logo">
+                    <img id="logo" src="images/logo_small.png" alt="scoots logo">
                 </a>
-                <h4 id="company-name">~Scoots</h4>
+                <h4 class="company-name">~Scoots</h4>
             </div>
+            <hr class="footer-hr">
             <div id="visit-us">
-                <p id="address">5a Av. Nte. & Calle 2 Nte, Centro, 77600 San Miguel de Cozumel, Q.R., México</p>
+                <p id="address">📌 5a Av. Nte. & Calle 2 Nte, Centro, 77600 San Miguel de Cozumel, Q.R., México</p>
                 <p id="phone-num">+52 999 123 4567</p>
                 <a id="map-link" href="https://goo.gl/maps/SCw9wi7ZMHr1z33G8">Map & Directions</a>
             </div>
-
+            <hr class="footer-hr">
             <div id="hours">
                 <p>Mon - Fri → 8:00-19:00</p>
                 <p>Sat → 8:00-20:00</p>
                 <p>Sun → Closed</p>
             </div>
-
+            <hr class="footer-hr">
             <div id="socials">
-                <img src="https://www.facebook.com/" alt="Facebook logo">
-                <img src="https://www.youtube.com/" alt="YouTube logo">
-                <img src="https://www.instagram.com/" alt="Instagram logo">
-                <img src="https://mail.google.com/" alt="Mail logo">
+                <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook logo"></a>
+                <a href="https://web.whatsapp.com/"><img src="images/whatsapp.webp" alt="Whatsapp logo"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram logo"></a>
+                <a href="https://mail.google.com/"><img src="images/at.webp" alt="Mail logo"></a>
             </div>
-
+            <hr class="footer-hr">
             <div id="footer-links">
                 <p>
-                    &copy;<span id="current-year"></span> |  
+                    &copy; <span id="current-year"></span> |  
                     <a href="">Resources</a> | 
                     <a href="">Rental Agreement</a> | 
-                    <a href="">Last Update: <span id="last-modified"></span></a>
+                    <br>Last Update: <span id="last-modified"></span>
                 </p>
             </div>
 
