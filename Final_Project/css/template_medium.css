@@ -1,0 +1,98 @@
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+
+    /* Header: */
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #header-address {
+        columns: 1 / 2;
+        justify-self: right;
+        font-size: 1.1rem;
+    }
+    #logo {
+        columns: 2 / 3;
+    }
+    #header-phone {
+        columns: 3 / 4;
+        justify-self: left;
+    }
+
+    /* Navigation: */
+    #menu-btn {
+        display: none;
+    }
+
+    #primary-nav {
+		display: flex;
+	}
+
+    #primary-nav li {
+        display: block;
+        flex: 1 1 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    #primary-nav a {
+        height: 2.5rem;
+        border-top: none;
+    }
+
+    #primary-nav a:hover {
+        border-left: none;
+        border-bottom: 3px solid var(--first-accent);
+        color: var(--terciary-color);
+    }
+    
+     /* Main: */
+    main {
+        max-width: 90%;
+    }
+
+    .weather-summary {
+        width: 50%;
+    }
+
+    /* Footer: */
+    #footer-grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+    #footer-logo {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    #visit-us {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding-bottom: 1rem;
+    }
+    #hours {
+        text-align: left;
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    #socials {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+    }
+    #footer-links {
+        width:90%;
+        border-top: 2px solid var(--first-accent);
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+    .footer-hr {
+        display: none;
+    }
+    #hours, #socials {
+        border-left: 2px solid var(--first-accent);
+        padding-left: 0.7rem;
+    }
+} 

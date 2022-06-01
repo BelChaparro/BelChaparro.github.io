@@ -1,0 +1,18 @@
+/* Large View: */
+@media (min-width: 60em) { /*960px*/
+
+    /*Header: */
+    #header-address {
+        width: 50%;
+    }
+
+    /* Navigation: */    
+    #primary-nav a {
+		font-size: 1.2rem;
+	}
+
+    /* Main: */
+    main {
+        max-width: 910px;
+    }
+} 
