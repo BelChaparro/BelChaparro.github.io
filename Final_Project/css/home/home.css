@@ -65,7 +65,6 @@
 }
 .weather-summary p {
     text-align: center;
-    font-weight: bold;
     color: var(--second-accent);
 }
 
