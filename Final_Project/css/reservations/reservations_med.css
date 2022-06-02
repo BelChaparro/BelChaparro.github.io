@@ -7,4 +7,9 @@
         border-bottom: 3px solid var(--first-accent);
         color: var(--terciary-color);
     }
+
+    /* Main: */
+    .rental-agreement {
+        font-size: 1.2rem;
+    }
 }

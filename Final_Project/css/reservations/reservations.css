@@ -3,3 +3,18 @@
     border-left: 3px solid var(--first-accent);
     color: var(--terciary-color);
 }
+
+/* Main: */
+h2 {
+    font-size: 2rem;
+    color: var(--first-accent);
+}
+
+.rental-agreement {
+    padding: 0.7rem;
+    font-size: 1.4rem;
+}
+
+.rental-agreement h3 {
+    margin-top: 0;
+}
