@@ -3,3 +3,41 @@
     border-left: 3px solid var(--first-accent);
     color: var(--terciary-color);
 }
+
+/* Main: */
+h2 {
+    font-size: 2rem;
+    color: var(--first-accent);
+}
+
+.rental-types {
+    border: 2px solid var(--first-accent);
+    border-radius: 3px;
+    text-align: center;
+}
+
+#type1, #type2, #type3 {
+    padding: 0.7rem;
+}
+.vehicle-box img {
+    border-radius: 3px;
+    max-width: 100%;
+    box-shadow: 1px 1px 5px 1px var(--terciary-color);
+}
+.vehicle-box hr {
+    width: 85%;
+    margin-bottom: 1.5rem;
+}
+.rental-types h3 {
+    font-size: 1.5rem;
+    padding-left: 0.7rem;
+}
+.rental-types p {
+    margin: 5px;
+}
+.rental-types td {
+    text-align: center;
+}
+.rental-types th, .rental-types td {
+    border: 2px solid var(--first-accent);
+}

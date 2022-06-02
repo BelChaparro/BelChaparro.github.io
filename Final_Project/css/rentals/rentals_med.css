@@ -7,4 +7,38 @@
         border-bottom: 3px solid var(--first-accent);
         color: var(--terciary-color);
     }
+
+    /* Main: */
+    .vehicle-box {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items:center;
+        margin-bottom: 1.5rem;
+    }
+
+    .vehicle-box img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;
+    }
+    .vehicle-box hr {
+        display: none;
+    }
+    .vehicle-box p {
+        font-size: 1.2rem;
+        grid-row: 2 / 3;
+        align-self: flex-end;
+    }
+    .vehicle-box p, .vehicle-box table {
+        grid-column: 2 / -1;
+        justify-self: left;
+    }
+
+    .vehicle-box table {
+        grid-column: 2 / -1;
+        grid-row: 3 / 4;
+        align-self: flex-start;
+    }
+
 }
