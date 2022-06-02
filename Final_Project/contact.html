@@ -25,6 +25,7 @@
 
     <!-- Scripts: -->
     <script src="js/scripts.js" defer></script>
+    <script src="js/alert_msg.js" defer></script>
 
 </head>
 <body>
@@ -66,6 +67,13 @@
                     📞 +52 998 123 4567
                 </p>
             </section>
+
+            <form id="contact-us-form">
+                <label class="top">Full Name* <input type="text" name="full-name" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Comments*<textarea id="comment-section" required></textarea></label>
+                <input type="submit" class="submitBtn" onclick="alertMessage()" name="submitBtn" value="Send">
+            </form>
             
         </main>
     
