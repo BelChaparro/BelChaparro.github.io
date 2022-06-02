@@ -7,9 +7,13 @@
     --second-accent: #ffffff;
 }
 
-/* FONTS: */
-
-
+/* FONTS: */ /* TEKO | WORK SANS */
+h1, h2, h3, h4, a {
+    font-family: "Teko","Times New Roman", sans-serif;
+}
+p, span, ul {
+    font-family: "Work Sans","Helvetica", "Arial", sans-serif;
+}
 
 /* GENERAL: */
 body {
@@ -33,6 +37,7 @@ header a {
     text-decoration: none;
     padding: 0.7rem;
 }
+
 #header-address, #header-phone {
     font-size: 1.3rem;
 }
@@ -43,7 +48,7 @@ header a {
 }
 
 .company-name {
-    margin: 0;
+    margin: -5px 0 0 0;
     color: var(--first-accent);
     font-size: 2.5rem;
 }
