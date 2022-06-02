@@ -25,3 +25,46 @@ h2 {
     font-size: 1.3rem;
     margin-bottom: 5px;
 }
+
+#contact-us-form {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: var(--second-accent);
+    border-radius: 5px;
+    margin: 1rem auto 2rem auto;
+    border: 2px solid var(--first-accent);
+    border-radius: 10px;
+    padding: .5rem 5%;
+    max-width: 500px;
+}
+
+#contact-us-form label.top{
+    display: block;
+    padding-top: 1rem;
+    color: var(--first-accent);
+    font-size: 1.1rem;
+}
+
+#contact-us-form label.top input, #contact-us-form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--terciary-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--secondary-color);
+    width: 90%;
+    max-width: 20rem;
+    background-color: var(--primary-color);
+}
+
+#contact-us-form input.submitBtn {
+    border: none;
+    background-color: var(--first-accent);
+    color: var(--second-accent);
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.5rem;
+}
