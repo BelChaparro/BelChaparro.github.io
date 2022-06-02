@@ -13,6 +13,8 @@ h2 {
 .rental-agreement {
     padding: 0.7rem;
     font-size: 1.4rem;
+    box-shadow: 1px 1px 10px 1px var(--terciary-color);
+    border-radius: 3px;
 }
 
 .rental-agreement h3 {
