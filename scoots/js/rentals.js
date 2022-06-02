@@ -1,5 +1,5 @@
 //Fetch rental data from JSON:
-const requestURL = "https://belchaparro.github.io/Final_Project/data/scoots-data.json";
+const requestURL = "https://belchaparro.github.io/scoots/data/scoots-data.json";
 fetch(requestURL)
     .then(function (response) {
         return response.json();
