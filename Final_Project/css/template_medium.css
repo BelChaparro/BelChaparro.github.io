@@ -11,7 +11,7 @@
         justify-self: right;
         font-size: 1.1rem;
     }
-    #logo {
+    .logo {
         columns: 2 / 3;
     }
     #header-phone {

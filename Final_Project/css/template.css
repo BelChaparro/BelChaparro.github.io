@@ -44,7 +44,7 @@ header a {
 #header-address, #header-phone {
     font-size: 1.3rem;
 }
-#logo {
+.logo {
     width: 160px;
     max-width: 160px;
     padding: 0.7rem;
