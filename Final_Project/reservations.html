@@ -67,6 +67,37 @@
                     </ul>
                 </p>
             </div>
+
+            <h2>Rental Details</h2>
+            <form action="confirmation.html" id="reservations-form">
+                <label class="top">Date* <input type="date" name="date" required></label>
+
+                <label class="top">Vehicle*
+                    <select name="vehicles" required>
+                        <option value="" selected disabled>Select Vehicle...&#9662;</option>
+                        <option value="Honda Metropolitan">Honda Metropolitan (49cc)—1 person</option>
+                        <option value="Honda Dio">Honda Dio (110cc)—2 person</option>
+                        <option value="Honda PCX150">Honda PCX150 (149cc)—2 person</option>
+                        <option value="Honda Pioneer 1000">Honda Pioneer 1000</option>
+                        <option value="4-door Jeep Wrangler">4-door Jeep Wrangler—manual with A/C—5 people max</option>
+                        <option value="2-door Jeep Wrangler">2-door Jeep Wrangler—open air—manual—4 people max</option>
+                    </select>
+                </label>
+
+                <div>Period</div>
+                <label class="sbs"><input type="radio" name="rental-type" value="half-day"> Half Day (3hrs)</label>
+                <label class="sbs"><input type="radio" name="rental-type" value="full-day"> Full Day</label>
+                
+                <label class="top">Full Name* <input type="text" name="full-name" required pattern="[A-Za-z ]{5,}"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" required pattern="/\+(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/"></label>
+                <label class="top">Home State/ Country <input type="text" name="home-country"></label>
+                <label class="top">Cruise Line <input type="text" name="cruise-line" pattern="[A-Za-z ]"></label>
+                
+                <label class="top">Special Accommodations / Comments<textarea id="comment-section"></textarea></label>
+                <input type="submit" class="submitBtn" name="submitBtn" value="Make Reservation">
+            </form>
+            
         </main>
     
         <!-- FOOTER -->
