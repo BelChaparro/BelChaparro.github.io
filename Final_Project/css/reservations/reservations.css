@@ -20,3 +20,49 @@ h2 {
 .rental-agreement h3 {
     margin-top: 0;
 }
+
+#reservations-form {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: var(--second-accent);
+    border-radius: 5px;
+    margin: 0 auto 2rem auto;
+    border: 2px solid var(--first-accent);
+    border-radius: 10px;
+    padding: .5rem 5%;
+    max-width: 500px;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: var(--second-accent);
+}
+#reservations-form label.top, #reservations-form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--first-accent);
+    font-size: 1.1rem;
+}
+
+#reservations-form label.top input, #reservations-form label.top select, #reservations-form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--terciary-color);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--secondary-color);
+    width: 90%;
+    max-width: 20rem;
+    background-color: var(--primary-color);
+}
+
+#reservations-form input.submitBtn {
+    border: none;
+    background-color: var(--first-accent);
+    color: var(--second-accent);
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
