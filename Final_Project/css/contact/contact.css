@@ -11,6 +11,7 @@ h2 {
 }
 #rental-locations {
     border: 2px solid var(--first-accent);
+    box-shadow: 1px 1px 10px 1px var(--terciary-color);
     border-radius: 5px;
     padding: 1rem;
 }
@@ -35,6 +36,7 @@ h2 {
     border-radius: 10px;
     padding: .5rem 5%;
     max-width: 500px;
+    
 }
 
 #contact-us-form label.top{
