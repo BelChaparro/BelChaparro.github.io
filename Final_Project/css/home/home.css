@@ -42,7 +42,8 @@
     text-align: center;
     margin-top: 10;
 }
-.rentals ul h3 {
+.rentals ul .h3 {
+    list-style-type: none;
     margin-bottom: 0;
     margin-left: -25px;
     color: var(--first-accent);
