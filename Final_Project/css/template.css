@@ -8,7 +8,7 @@
 }
 
 /* FONTS: */ /* TEKO | WORK SANS */
-h1, h2, h3, h4, a {
+h1, h2, h3, h4, a, label, .submitBtn{
     font-family: "Teko","Times New Roman", sans-serif;
 }
 p, span, ul {
