@@ -3,3 +3,25 @@
     border-left: 3px solid var(--first-accent);
     color: var(--terciary-color);
 }
+
+/* Main: */
+h2 {
+    font-size: 2rem;
+    color: var(--first-accent);
+}
+#rental-locations {
+    border: 2px solid var(--first-accent);
+    border-radius: 5px;
+    padding: 1rem;
+}
+#rental-locations iframe{
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px var(--terciary-color);
+    width: 300px;
+    height: 250px;
+    border: 0;
+}
+#rental-locations h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
