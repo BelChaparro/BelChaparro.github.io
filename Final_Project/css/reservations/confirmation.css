@@ -5,6 +5,7 @@ h2 {
 }
 main {
     margin-bottom: 2rem;
+    min-height: 45vh;
 }
 main #back-btn {
     text-decoration: none;
