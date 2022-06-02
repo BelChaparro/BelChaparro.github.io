@@ -26,6 +26,8 @@
 
     #primary-nav {
 		display: flex;
+        max-width: 80%;
+        margin: 0 auto;
 	}
 
     #primary-nav li {
@@ -49,10 +51,6 @@
      /* Main: */
     main {
         max-width: 90%;
-    }
-
-    .weather-summary {
-        width: 50%;
     }
 
     /* Footer: */

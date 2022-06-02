@@ -14,6 +14,7 @@
 /* GENERAL: */
 body {
     max-width: 100%;
+    min-width: 320px;
     background: var(--primary-color);
     font-size: 1rem;
     margin: 0;
@@ -82,15 +83,15 @@ nav {
 	list-style-type: none;
 	overflow: hidden;
     padding: 0;
-    margin: 0 15px 0 15px;
+    margin: 0 15px;
     background-color: var(--secondary-color);
 }
 
-#primary-nav a {
+#primary-nav li a {
     font-weight: bold;
     display: block;
     height: 2rem;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
     color: var(--primary-color);
     text-decoration: none;
     padding: 0.5rem;
@@ -116,120 +117,6 @@ main {
     max-width: 95%;
 }
 
-#main-grid {
-    grid-template-columns: 1fr;
-}
-
-.banner img {
-    max-width: 100%;
-    border-radius: 3px;
-}
-#action {
-    background-color: var(--secondary-color);
-    text-align: center;
-    border-radius: 3px;
-}
-#action button{
-    height: 2.5rem;
-	font-size: 1.2rem;
-    margin: 0.7rem;
-    border: none;
-    box-shadow: 1px 1px 5px 1px var(--secondary-color);
-    border-radius: 5px;
-    background-color: var(--first-accent);
-    color: var(--primary-color);
-}
-
-.rentals {
-    margin: 0.5rem;
-    padding: 0.7rem;
-    border: 2px solid var(--first-accent);
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px 1px var(--terciary-color);
-}
-.rentals h2 {
-    text-align: center;
-    margin-top: 10;
-}
-.rentals ul h3 {
-    margin-bottom: 0;
-    margin-left: -25px;
-    color: var(--first-accent);
-}
-
-.weather-summary, .five-day-forecast-box {
-    margin: 0.7rem auto;
-    border-radius: 5px;
-    text-align: center;
-    background: var(--secondary-color);
-    padding: 10px;
-    line-height: 0.5rem;
-}
-.weather-summary h2, .five-day-forecast-box h2 {
-    margin: 15px;
-    color:var(--first-accent);
-}
-.weather-summary hr {
-    width: 85%;
-}
-.weather-summary p {
-    text-align: center;
-    font-weight: bold;
-    color: var(--second-accent);
-}
-
-/* 5-day Forecast: */
-.five-day-forecast-box {
-    color: var(--second-accent);
-    border-radius: 5px;
-	display: flex;
-	flex-flow: row wrap;
-    max-width: 100%;
-}
-.five-day-forecast-box h2 {
-    width: 100%;
-}
-.five-day-forecast-box img {
-    background-color: var(--terciary-color);
-    border-radius: 40px;
-    margin-top: 1.5rem;
-	padding: 0.5rem;
-}
-.forecast-col {
-	flex: 1 1 auto;
-	background-color: var(--primary-color);
-    color: var(--first-accent);
-    text-align: center;
-}
-.forecast-col:hover {
-	opacity: 0.9;
-	background-color: var(--first-accent);
-	color: var(--second-accent);
-    border-radius: 5px;
-}
-.forecast-col:hover img{
-    background-color: var(--second-accent);
-}
-.col-head {
-	display: block;
-	padding: 1rem 0.5rem;
-	text-align: center;
-    font-weight: 700;
-	font-size: 1.3rem;
-	background-color: rgba(156, 156, 156, 0.5);
-	color: var(--first-accent);
-}
-.forecast-col:hover .col-head {
-    opacity: 1;
-    color: var(--second-accent);
-}
-
-.data {
-	display: block;
-	padding: 0.7rem;
-	text-align: center;
-    font-weight: 600;
-}
 /* FOOTER: */
 footer {
     min-height: 6rem; 

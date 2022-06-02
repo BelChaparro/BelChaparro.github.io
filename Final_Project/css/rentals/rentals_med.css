@@ -1,0 +1,10 @@
+/* Medium View: */
+@media (min-width: 32.5em) { /* 520px */
+
+    /* Navigation: */
+    #primary-nav a#rentals-nav-btn {
+        border-left: none;
+        border-bottom: 3px solid var(--first-accent);
+        color: var(--terciary-color);
+    }
+}

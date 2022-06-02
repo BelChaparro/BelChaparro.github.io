@@ -6,7 +6,10 @@
         width: 50%;
     }
 
-    /* Navigation: */    
+    /* Navigation: */
+    #primary-nav {
+        max-width: 50%;
+    } 
     #primary-nav a {
 		font-size: 1.2rem;
 	}

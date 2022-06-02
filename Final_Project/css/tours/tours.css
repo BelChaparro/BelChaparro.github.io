@@ -1,0 +1,5 @@
+/* Navigation: */
+#primary-nav a#tours-nav-btn {
+    border-left: 3px solid var(--first-accent);
+    color: var(--terciary-color);
+}

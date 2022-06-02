@@ -1,0 +1,5 @@
+/* Navigation: */
+#primary-nav a#rentals-nav-btn {
+    border-left: 3px solid var(--first-accent);
+    color: var(--terciary-color);
+}
