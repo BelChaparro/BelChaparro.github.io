@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsonObject)
         const rentals = jsonObject['rentals'];
 
         for (let i = 0; i < rentals.length; i++ ) {
